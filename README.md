@@ -1,6 +1,6 @@
 # ROG Astral RTX 5080 - aquasuite
 
-An aquasuite monitoring dashboard for the **ASUS ROG Astral GeForce RTX 5080 OC**. Displays GPU temperatures and power readings, with optional notifications for issues with the 12VHPWR connector.
+An unofficial aquasuite monitoring dashboard for the **ASUS ROG Astral GeForce RTX 5080 OC**. Displays GPU temperatures and power readings, with optional notifications for issues with the 12VHPWR connector. Not affiliated with or endorsed by ASUS or Aqua Computer.
 
 ![RTX 5080 Astral monitoring dashboard in aquasuite](docs/screenshots/dashboard.png)
 
