@@ -1,0 +1,4557 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SettingsGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Name>RTX 5080 Astral · Graph + Bars</Name>
+  <GridSize>10</GridSize>
+  <Items>
+    <SettingsBase xsi:type="SettingsXamlItem">
+      <_font>
+        <size>22</size>
+        <w>Normal</w>
+        <st>Normal</st>
+        <f>Segoe UI</f>
+        <col>#ff000000</col>
+      </_font>
+      <itemType>XamlControl</itemType>
+      <X>0</X>
+      <Y>0</Y>
+      <Height>1135</Height>
+      <Width>1600</Width>
+      <ZOrder>0</ZOrder>
+      <Opacity>1</Opacity>
+      <SnapToGrid>false</SnapToGrid>
+      <GridSize>10</GridSize>
+      <font>
+        <size>22</size>
+        <w>Normal</w>
+        <st>Normal</st>
+        <f>Segoe UI</f>
+        <col>#ff000000</col>
+      </font>
+      <connection>XamlControl</connection>
+      <xamlCode>&lt;UserControl
+   xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+   xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+   xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+   xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+   xmlns:sys="clr-namespace:System;assembly=mscorlib"
+   x:Name="this"
+   mc:Ignorable="d"
+   d:DesignWidth="400"
+   d:DesignHeight="200"&gt;
+   &lt;Canvas
+      Background="#303030"
+      Width="1600"
+      Height="1135"&gt;
+      &lt;Rectangle
+         Canvas.Left="0"
+         Canvas.Top="0"
+         Width="1600"
+         Height="1135"
+         Fill="#303030"
+         Stroke="#303030"
+         StrokeThickness="0"
+         RadiusX="0"
+         RadiusY="0" /&gt;
+      &lt;Rectangle
+         Canvas.Left="28"
+         Canvas.Top="26"
+         Width="1544"
+         Height="138"
+         Fill="#353535"
+         Stroke="#535353"
+         StrokeThickness="1"
+         RadiusX="5"
+         RadiusY="5" /&gt;
+      &lt;TextBlock
+         Canvas.Left="60"
+         Canvas.Top="45"
+         Text="RTX"
+         Foreground="#E8E8E8"
+         FontFamily="Segoe UI"
+         FontSize="66"
+         FontWeight="SemiBold" /&gt;
+      &lt;TextBlock
+         Canvas.Left="190"
+         Canvas.Top="45"
+         Text="5080"
+         Foreground="#6AAFD0"
+         FontFamily="Segoe UI"
+         FontSize="66"
+         FontWeight="SemiBold" /&gt;
+      &lt;TextBlock
+         Canvas.Left="60"
+         Canvas.Top="116"
+         Text="ASUS ROG ASTRAL"
+         Foreground="#E8E8E8"
+         FontFamily="Segoe UI"
+         FontSize="28"
+         FontWeight="SemiBold" /&gt;
+      &lt;TextBlock
+         Canvas.Left="1310"
+         Canvas.Top="121"
+         Text="ITE IT8915FN"
+         Foreground="#C3C3C3"
+         FontFamily="Segoe UI"
+         FontSize="18"
+         FontWeight="Normal" /&gt;
+      &lt;Rectangle
+         Canvas.Left="28"
+         Canvas.Top="180"
+         Width="980"
+         Height="481"
+         Fill="#333333"
+         Stroke="#535353"
+         StrokeThickness="1.3"
+         RadiusX="5"
+         RadiusY="5" /&gt;
+      &lt;Rectangle
+         Canvas.Left="30"
+         Canvas.Top="182"
+         Width="976"
+         Height="4"
+         Fill="#353535"
+         Stroke="#353535"
+         StrokeThickness="0"
+         RadiusX="1"
+         RadiusY="1" /&gt;
+      &lt;Rectangle
+         Canvas.Left="1020"
+         Canvas.Top="180"
+         Width="552"
+         Height="481"
+         Fill="#333333"
+         Stroke="#535353"
+         StrokeThickness="1.3"
+         RadiusX="5"
+         RadiusY="5" /&gt;
+      &lt;Rectangle
+         Canvas.Left="1022"
+         Canvas.Top="182"
+         Width="548"
+         Height="4"
+         Fill="#353535"
+         Stroke="#353535"
+         StrokeThickness="0"
+         RadiusX="1"
+         RadiusY="1" /&gt;
+      &lt;Rectangle
+         Canvas.Left="28"
+         Canvas.Top="675"
+         Width="980"
+         Height="432"
+         Fill="#333333"
+         Stroke="#535353"
+         StrokeThickness="1.3"
+         RadiusX="5"
+         RadiusY="5" /&gt;
+      &lt;Rectangle
+         Canvas.Left="30"
+         Canvas.Top="677"
+         Width="976"
+         Height="4"
+         Fill="#353535"
+         Stroke="#353535"
+         StrokeThickness="0"
+         RadiusX="1"
+         RadiusY="1" /&gt;
+      &lt;Rectangle
+         Canvas.Left="1020"
+         Canvas.Top="675"
+         Width="552"
+         Height="432"
+         Fill="#333333"
+         Stroke="#535353"
+         StrokeThickness="1.3"
+         RadiusX="5"
+         RadiusY="5" /&gt;
+      &lt;Rectangle
+         Canvas.Left="1022"
+         Canvas.Top="677"
+         Width="548"
+         Height="4"
+         Fill="#353535"
+         Stroke="#353535"
+         StrokeThickness="0"
+         RadiusX="1"
+         RadiusY="1" /&gt;
+      &lt;TextBlock
+         Canvas.Left="52"
+         Canvas.Top="198"
+         Text="Temperatures"
+         Foreground="#E8E8E8"
+         FontFamily="Segoe UI"
+         FontSize="30"
+         FontWeight="SemiBold" /&gt;
+      &lt;TextBlock
+         Canvas.Left="284"
+         Canvas.Top="245"
+         Text="°C"
+         Foreground="#A4A4A4"
+         FontFamily="Segoe UI"
+         FontSize="15"
+         FontWeight="Normal" /&gt;
+      &lt;TextBlock
+         Canvas.Left="430"
+         Canvas.Top="245"
+         Text="THERMAL RANGE"
+         Foreground="#A4A4A4"
+         FontFamily="Segoe UI"
+         FontSize="15"
+         FontWeight="Normal" /&gt;
+      &lt;TextBlock
+         Canvas.Left="749"
+         Canvas.Top="245"
+         Text="LIVE HISTORY · 10 M"
+         Foreground="#A4A4A4"
+         FontFamily="Segoe UI"
+         FontSize="15"
+         FontWeight="Normal" /&gt;
+      &lt;TextBlock
+         Canvas.Left="869"
+         Canvas.Top="211"
+         Text="8 SENSORS"
+         Foreground="#A4A4A4"
+         FontFamily="Segoe UI"
+         FontSize="14"
+         FontWeight="Normal" /&gt;
+      &lt;Line
+         X1="52"
+         Y1="273"
+         X2="980"
+         Y2="273"
+         Stroke="#484848"
+         StrokeThickness="1" /&gt;
+      &lt;TextBlock
+         Canvas.Left="53"
+         Canvas.Top="287"
+         Text="GPU VRM1"
+         Foreground="#E8E8E8"
+         FontFamily="Segoe UI"
+         FontSize="20"
+         FontWeight="Normal" /&gt;
+      &lt;Line
+         X1="793"
+         Y1="289"
+         X2="793"
+         Y2="318"
+         Stroke="#2B2B2B"
+         StrokeThickness="0.7" /&gt;
+      &lt;Line
+         X1="858"
+         Y1="289"
+         X2="858"
+         Y2="318"
+         Stroke="#2B2B2B"
+         StrokeThickness="0.7" /&gt;
+      &lt;Line
+         X1="923"
+         Y1="289"
+         X2="923"
+         Y2="318"
+         Stroke="#2B2B2B"
+         StrokeThickness="0.7" /&gt;
+      &lt;Rectangle
+         Canvas.Left="44"
+         Canvas.Top="324"
+         Width="951"
+         Height="44"
+         Fill="#393939"
+         Stroke="#393939"
+         StrokeThickness="0"
+         RadiusX="4"
+         RadiusY="4" /&gt;
+      &lt;TextBlock
+         Canvas.Left="53"
+         Canvas.Top="332"
+         Text="GPU Chip"
+         Foreground="#E8E8E8"
+         FontFamily="Segoe UI"
+         FontSize="20"
+         FontWeight="Normal" /&gt;
+      &lt;Line
+         X1="793"
+         Y1="334"
+         X2="793"
+         Y2="363"
+         Stroke="#2B2B2B"
+         StrokeThickness="0.7" /&gt;
+      &lt;Line
+         X1="858"
+         Y1="334"
+         X2="858"
+         Y2="363"
+         Stroke="#2B2B2B"
+         StrokeThickness="0.7" /&gt;
+      &lt;Line
+         X1="923"
+         Y1="334"
+         X2="923"
+         Y2="363"
+         Stroke="#2B2B2B"
+         StrokeThickness="0.7" /&gt;
+      &lt;TextBlock
+         Canvas.Left="53"
+         Canvas.Top="377"
+         Text="GPU Memory1"
+         Foreground="#E8E8E8"
+         FontFamily="Segoe UI"
+         FontSize="20"
+         FontWeight="Normal" /&gt;
+      &lt;Line
+         X1="793"
+         Y1="379"
+         X2="793"
+         Y2="408"
+         Stroke="#2B2B2B"
+         StrokeThickness="0.7" /&gt;
+      &lt;Line
+         X1="858"
+         Y1="379"
+         X2="858"
+         Y2="408"
+         Stroke="#2B2B2B"
+         StrokeThickness="0.7" /&gt;
+      &lt;Line
+         X1="923"
+         Y1="379"
+         X2="923"
+         Y2="408"
+         Stroke="#2B2B2B"
+         StrokeThickness="0.7" /&gt;
+      &lt;Rectangle
+         Canvas.Left="44"
+         Canvas.Top="414"
+         Width="951"
+         Height="44"
+         Fill="#393939"
+         Stroke="#393939"
+         StrokeThickness="0"
+         RadiusX="4"
+         RadiusY="4" /&gt;
+      &lt;TextBlock
+         Canvas.Left="53"
+         Canvas.Top="422"
+         Text="GPU Memory2"
+         Foreground="#E8E8E8"
+         FontFamily="Segoe UI"
+         FontSize="20"
+         FontWeight="Normal" /&gt;
+      &lt;Line
+         X1="793"
+         Y1="424"
+         X2="793"
+         Y2="453"
+         Stroke="#2B2B2B"
+         StrokeThickness="0.7" /&gt;
+      &lt;Line
+         X1="858"
+         Y1="424"
+         X2="858"
+         Y2="453"
+         Stroke="#2B2B2B"
+         StrokeThickness="0.7" /&gt;
+      &lt;Line
+         X1="923"
+         Y1="424"
+         X2="923"
+         Y2="453"
+         Stroke="#2B2B2B"
+         StrokeThickness="0.7" /&gt;
+      &lt;TextBlock
+         Canvas.Left="53"
+         Canvas.Top="467"
+         Text="GPU VRM2"
+         Foreground="#E8E8E8"
+         FontFamily="Segoe UI"
+         FontSize="20"
+         FontWeight="Normal" /&gt;
+      &lt;Line
+         X1="793"
+         Y1="469"
+         X2="793"
+         Y2="498"
+         Stroke="#2B2B2B"
+         StrokeThickness="0.7" /&gt;
+      &lt;Line
+         X1="858"
+         Y1="469"
+         X2="858"
+         Y2="498"
+         Stroke="#2B2B2B"
+         StrokeThickness="0.7" /&gt;
+      &lt;Line
+         X1="923"
+         Y1="469"
+         X2="923"
+         Y2="498"
+         Stroke="#2B2B2B"
+         StrokeThickness="0.7" /&gt;
+      &lt;Rectangle
+         Canvas.Left="44"
+         Canvas.Top="504"
+         Width="951"
+         Height="44"
+         Fill="#393939"
+         Stroke="#393939"
+         StrokeThickness="0"
+         RadiusX="4"
+         RadiusY="4" /&gt;
+      &lt;TextBlock
+         Canvas.Left="53"
+         Canvas.Top="512"
+         Text="GPU Board 6"
+         Foreground="#E8E8E8"
+         FontFamily="Segoe UI"
+         FontSize="20"
+         FontWeight="Normal" /&gt;
+      &lt;Line
+         X1="793"
+         Y1="514"
+         X2="793"
+         Y2="543"
+         Stroke="#2B2B2B"
+         StrokeThickness="0.7" /&gt;
+      &lt;Line
+         X1="858"
+         Y1="514"
+         X2="858"
+         Y2="543"
+         Stroke="#2B2B2B"
+         StrokeThickness="0.7" /&gt;
+      &lt;Line
+         X1="923"
+         Y1="514"
+         X2="923"
+         Y2="543"
+         Stroke="#2B2B2B"
+         StrokeThickness="0.7" /&gt;
+      &lt;TextBlock
+         Canvas.Left="53"
+         Canvas.Top="557"
+         Text="GPU Board 7"
+         Foreground="#E8E8E8"
+         FontFamily="Segoe UI"
+         FontSize="20"
+         FontWeight="Normal" /&gt;
+      &lt;Line
+         X1="793"
+         Y1="559"
+         X2="793"
+         Y2="588"
+         Stroke="#2B2B2B"
+         StrokeThickness="0.7" /&gt;
+      &lt;Line
+         X1="858"
+         Y1="559"
+         X2="858"
+         Y2="588"
+         Stroke="#2B2B2B"
+         StrokeThickness="0.7" /&gt;
+      &lt;Line
+         X1="923"
+         Y1="559"
+         X2="923"
+         Y2="588"
+         Stroke="#2B2B2B"
+         StrokeThickness="0.7" /&gt;
+      &lt;Rectangle
+         Canvas.Left="44"
+         Canvas.Top="594"
+         Width="951"
+         Height="44"
+         Fill="#393939"
+         Stroke="#393939"
+         StrokeThickness="0"
+         RadiusX="4"
+         RadiusY="4" /&gt;
+      &lt;TextBlock
+         Canvas.Left="53"
+         Canvas.Top="602"
+         Text="GPU Board 8"
+         Foreground="#E8E8E8"
+         FontFamily="Segoe UI"
+         FontSize="20"
+         FontWeight="Normal" /&gt;
+      &lt;Line
+         X1="793"
+         Y1="604"
+         X2="793"
+         Y2="633"
+         Stroke="#2B2B2B"
+         StrokeThickness="0.7" /&gt;
+      &lt;Line
+         X1="858"
+         Y1="604"
+         X2="858"
+         Y2="633"
+         Stroke="#2B2B2B"
+         StrokeThickness="0.7" /&gt;
+      &lt;Line
+         X1="923"
+         Y1="604"
+         X2="923"
+         Y2="633"
+         Stroke="#2B2B2B"
+         StrokeThickness="0.7" /&gt;
+      &lt;TextBlock
+         Canvas.Left="1047"
+         Canvas.Top="198"
+         Text="12VHPWR"
+         Foreground="#E8E8E8"
+         FontFamily="Segoe UI"
+         FontSize="29"
+         FontWeight="SemiBold" /&gt;
+      &lt;TextBlock
+         Canvas.Left="1049"
+         Canvas.Top="247"
+         Text="CONNECTOR TOTAL POWER"
+         Foreground="#C3C3C3"
+         FontFamily="Segoe UI"
+         FontSize="15"
+         FontWeight="SemiBold" /&gt;
+      &lt;Rectangle
+         Canvas.Left="1048"
+         Canvas.Top="397"
+         Width="496"
+         Height="208"
+         Fill="#292929"
+         Stroke="#565656"
+         StrokeThickness="1"
+         RadiusX="5"
+         RadiusY="5" /&gt;
+      &lt;Line
+         X1="1131.5"
+         Y1="399"
+         X2="1131.5"
+         Y2="604"
+         Stroke="#454545"
+         StrokeThickness="0.8" /&gt;
+      &lt;Line
+         X1="1214.0"
+         Y1="399"
+         X2="1214.0"
+         Y2="604"
+         Stroke="#454545"
+         StrokeThickness="0.8" /&gt;
+      &lt;Line
+         X1="1296.5"
+         Y1="399"
+         X2="1296.5"
+         Y2="604"
+         Stroke="#454545"
+         StrokeThickness="0.8" /&gt;
+      &lt;Line
+         X1="1379.0"
+         Y1="399"
+         X2="1379.0"
+         Y2="604"
+         Stroke="#454545"
+         StrokeThickness="0.8" /&gt;
+      &lt;Line
+         X1="1461.5"
+         Y1="399"
+         X2="1461.5"
+         Y2="604"
+         Stroke="#454545"
+         StrokeThickness="0.8" /&gt;
+      &lt;Line
+         X1="1050"
+         Y1="449"
+         X2="1543"
+         Y2="449"
+         Stroke="#454545"
+         StrokeThickness="0.8" /&gt;
+      &lt;Line
+         X1="1050"
+         Y1="500"
+         X2="1543"
+         Y2="500"
+         Stroke="#454545"
+         StrokeThickness="0.8" /&gt;
+      &lt;Line
+         X1="1050"
+         Y1="551"
+         X2="1543"
+         Y2="551"
+         Stroke="#454545"
+         StrokeThickness="0.8" /&gt;
+      &lt;TextBlock
+         Canvas.Left="1052"
+         Canvas.Top="373"
+         Text="LAST 60 MINUTES"
+         Foreground="#A4A4A4"
+         FontFamily="Segoe UI"
+         FontSize="14"
+         FontWeight="Normal" /&gt;
+      &lt;TextBlock
+         Canvas.Left="52"
+         Canvas.Top="693"
+         Text="12VHPWR Pins"
+         Foreground="#E8E8E8"
+         FontFamily="Segoe UI"
+         FontSize="30"
+         FontWeight="SemiBold" /&gt;
+      &lt;TextBlock
+         Canvas.Left="707"
+         Canvas.Top="709"
+         Text="CURRENT MONITOR  ·  0–15 A"
+         Foreground="#A4A4A4"
+         FontFamily="Segoe UI"
+         FontSize="15"
+         FontWeight="Normal" /&gt;
+      &lt;Rectangle
+         Canvas.Left="52"
+         Canvas.Top="742"
+         Width="142"
+         Height="339"
+         Fill="#363636"
+         Stroke="#515151"
+         StrokeThickness="1"
+         RadiusX="5"
+         RadiusY="5" /&gt;
+      &lt;Rectangle
+         Canvas.Left="53"
+         Canvas.Top="743"
+         Width="140"
+         Height="41"
+         Fill="#3C3C3C"
+         Stroke="#3C3C3C"
+         StrokeThickness="0"
+         RadiusX="5"
+         RadiusY="5" /&gt;
+      &lt;TextBlock
+         Canvas.Left="56"
+         Canvas.Top="750"
+         Text="PIN 01"
+         Foreground="#E8E8E8"
+         FontFamily="Segoe UI"
+         FontSize="17"
+         FontWeight="SemiBold"
+         Width="134"
+         TextAlignment="Center" /&gt;
+      &lt;Line
+         X1="64"
+         Y1="784"
+         X2="182"
+         Y2="784"
+         Stroke="#515151"
+         StrokeThickness="1" /&gt;
+      &lt;TextBlock
+         Canvas.Left="64"
+         Canvas.Top="811"
+         Text="15 A"
+         Foreground="#A4A4A4"
+         FontFamily="Segoe UI"
+         FontSize="12"
+         FontWeight="Normal" /&gt;
+      &lt;TextBlock
+         Canvas.Left="69"
+         Canvas.Top="907"
+         Text="0 A"
+         Foreground="#A4A4A4"
+         FontFamily="Segoe UI"
+         FontSize="12"
+         FontWeight="Normal" /&gt;
+      &lt;TextBlock
+         Canvas.Left="64"
+         Canvas.Top="938"
+         Text="CURRENT"
+         Foreground="#A4A4A4"
+         FontFamily="Segoe UI"
+         FontSize="11"
+         FontWeight="SemiBold"
+         Width="118"
+         TextAlignment="Center" /&gt;
+      &lt;Line
+         X1="64"
+         Y1="986"
+         X2="182"
+         Y2="986"
+         Stroke="#515151"
+         StrokeThickness="0.8" /&gt;
+      &lt;TextBlock
+         Canvas.Left="64"
+         Canvas.Top="993"
+         Text="VOLTAGE"
+         Foreground="#A4A4A4"
+         FontFamily="Segoe UI"
+         FontSize="11"
+         FontWeight="SemiBold"
+         Width="118"
+         TextAlignment="Center" /&gt;
+      &lt;TextBlock
+         Canvas.Left="64"
+         Canvas.Top="1041"
+         Text="POWER"
+         Foreground="#A4A4A4"
+         FontFamily="Segoe UI"
+         FontSize="11"
+         FontWeight="SemiBold"
+         Width="118"
+         TextAlignment="Center" /&gt;
+      &lt;Rectangle
+         Canvas.Left="208"
+         Canvas.Top="742"
+         Width="142"
+         Height="339"
+         Fill="#363636"
+         Stroke="#515151"
+         StrokeThickness="1"
+         RadiusX="5"
+         RadiusY="5" /&gt;
+      &lt;Rectangle
+         Canvas.Left="209"
+         Canvas.Top="743"
+         Width="140"
+         Height="41"
+         Fill="#3C3C3C"
+         Stroke="#3C3C3C"
+         StrokeThickness="0"
+         RadiusX="5"
+         RadiusY="5" /&gt;
+      &lt;TextBlock
+         Canvas.Left="212"
+         Canvas.Top="750"
+         Text="PIN 02"
+         Foreground="#E8E8E8"
+         FontFamily="Segoe UI"
+         FontSize="17"
+         FontWeight="SemiBold"
+         Width="134"
+         TextAlignment="Center" /&gt;
+      &lt;Line
+         X1="220"
+         Y1="784"
+         X2="338"
+         Y2="784"
+         Stroke="#515151"
+         StrokeThickness="1" /&gt;
+      &lt;TextBlock
+         Canvas.Left="220"
+         Canvas.Top="811"
+         Text="15 A"
+         Foreground="#A4A4A4"
+         FontFamily="Segoe UI"
+         FontSize="12"
+         FontWeight="Normal" /&gt;
+      &lt;TextBlock
+         Canvas.Left="225"
+         Canvas.Top="907"
+         Text="0 A"
+         Foreground="#A4A4A4"
+         FontFamily="Segoe UI"
+         FontSize="12"
+         FontWeight="Normal" /&gt;
+      &lt;TextBlock
+         Canvas.Left="220"
+         Canvas.Top="938"
+         Text="CURRENT"
+         Foreground="#A4A4A4"
+         FontFamily="Segoe UI"
+         FontSize="11"
+         FontWeight="SemiBold"
+         Width="118"
+         TextAlignment="Center" /&gt;
+      &lt;Line
+         X1="220"
+         Y1="986"
+         X2="338"
+         Y2="986"
+         Stroke="#515151"
+         StrokeThickness="0.8" /&gt;
+      &lt;TextBlock
+         Canvas.Left="220"
+         Canvas.Top="993"
+         Text="VOLTAGE"
+         Foreground="#A4A4A4"
+         FontFamily="Segoe UI"
+         FontSize="11"
+         FontWeight="SemiBold"
+         Width="118"
+         TextAlignment="Center" /&gt;
+      &lt;TextBlock
+         Canvas.Left="220"
+         Canvas.Top="1041"
+         Text="POWER"
+         Foreground="#A4A4A4"
+         FontFamily="Segoe UI"
+         FontSize="11"
+         FontWeight="SemiBold"
+         Width="118"
+         TextAlignment="Center" /&gt;
+      &lt;Rectangle
+         Canvas.Left="364"
+         Canvas.Top="742"
+         Width="142"
+         Height="339"
+         Fill="#363636"
+         Stroke="#515151"
+         StrokeThickness="1"
+         RadiusX="5"
+         RadiusY="5" /&gt;
+      &lt;Rectangle
+         Canvas.Left="365"
+         Canvas.Top="743"
+         Width="140"
+         Height="41"
+         Fill="#3C3C3C"
+         Stroke="#3C3C3C"
+         StrokeThickness="0"
+         RadiusX="5"
+         RadiusY="5" /&gt;
+      &lt;TextBlock
+         Canvas.Left="368"
+         Canvas.Top="750"
+         Text="PIN 03"
+         Foreground="#E8E8E8"
+         FontFamily="Segoe UI"
+         FontSize="17"
+         FontWeight="SemiBold"
+         Width="134"
+         TextAlignment="Center" /&gt;
+      &lt;Line
+         X1="376"
+         Y1="784"
+         X2="494"
+         Y2="784"
+         Stroke="#515151"
+         StrokeThickness="1" /&gt;
+      &lt;TextBlock
+         Canvas.Left="376"
+         Canvas.Top="811"
+         Text="15 A"
+         Foreground="#A4A4A4"
+         FontFamily="Segoe UI"
+         FontSize="12"
+         FontWeight="Normal" /&gt;
+      &lt;TextBlock
+         Canvas.Left="381"
+         Canvas.Top="907"
+         Text="0 A"
+         Foreground="#A4A4A4"
+         FontFamily="Segoe UI"
+         FontSize="12"
+         FontWeight="Normal" /&gt;
+      &lt;TextBlock
+         Canvas.Left="376"
+         Canvas.Top="938"
+         Text="CURRENT"
+         Foreground="#A4A4A4"
+         FontFamily="Segoe UI"
+         FontSize="11"
+         FontWeight="SemiBold"
+         Width="118"
+         TextAlignment="Center" /&gt;
+      &lt;Line
+         X1="376"
+         Y1="986"
+         X2="494"
+         Y2="986"
+         Stroke="#515151"
+         StrokeThickness="0.8" /&gt;
+      &lt;TextBlock
+         Canvas.Left="376"
+         Canvas.Top="993"
+         Text="VOLTAGE"
+         Foreground="#A4A4A4"
+         FontFamily="Segoe UI"
+         FontSize="11"
+         FontWeight="SemiBold"
+         Width="118"
+         TextAlignment="Center" /&gt;
+      &lt;TextBlock
+         Canvas.Left="376"
+         Canvas.Top="1041"
+         Text="POWER"
+         Foreground="#A4A4A4"
+         FontFamily="Segoe UI"
+         FontSize="11"
+         FontWeight="SemiBold"
+         Width="118"
+         TextAlignment="Center" /&gt;
+      &lt;Rectangle
+         Canvas.Left="520"
+         Canvas.Top="742"
+         Width="142"
+         Height="339"
+         Fill="#363636"
+         Stroke="#515151"
+         StrokeThickness="1"
+         RadiusX="5"
+         RadiusY="5" /&gt;
+      &lt;Rectangle
+         Canvas.Left="521"
+         Canvas.Top="743"
+         Width="140"
+         Height="41"
+         Fill="#3C3C3C"
+         Stroke="#3C3C3C"
+         StrokeThickness="0"
+         RadiusX="5"
+         RadiusY="5" /&gt;
+      &lt;TextBlock
+         Canvas.Left="524"
+         Canvas.Top="750"
+         Text="PIN 04"
+         Foreground="#E8E8E8"
+         FontFamily="Segoe UI"
+         FontSize="17"
+         FontWeight="SemiBold"
+         Width="134"
+         TextAlignment="Center" /&gt;
+      &lt;Line
+         X1="532"
+         Y1="784"
+         X2="650"
+         Y2="784"
+         Stroke="#515151"
+         StrokeThickness="1" /&gt;
+      &lt;TextBlock
+         Canvas.Left="532"
+         Canvas.Top="811"
+         Text="15 A"
+         Foreground="#A4A4A4"
+         FontFamily="Segoe UI"
+         FontSize="12"
+         FontWeight="Normal" /&gt;
+      &lt;TextBlock
+         Canvas.Left="537"
+         Canvas.Top="907"
+         Text="0 A"
+         Foreground="#A4A4A4"
+         FontFamily="Segoe UI"
+         FontSize="12"
+         FontWeight="Normal" /&gt;
+      &lt;TextBlock
+         Canvas.Left="532"
+         Canvas.Top="938"
+         Text="CURRENT"
+         Foreground="#A4A4A4"
+         FontFamily="Segoe UI"
+         FontSize="11"
+         FontWeight="SemiBold"
+         Width="118"
+         TextAlignment="Center" /&gt;
+      &lt;Line
+         X1="532"
+         Y1="986"
+         X2="650"
+         Y2="986"
+         Stroke="#515151"
+         StrokeThickness="0.8" /&gt;
+      &lt;TextBlock
+         Canvas.Left="532"
+         Canvas.Top="993"
+         Text="VOLTAGE"
+         Foreground="#A4A4A4"
+         FontFamily="Segoe UI"
+         FontSize="11"
+         FontWeight="SemiBold"
+         Width="118"
+         TextAlignment="Center" /&gt;
+      &lt;TextBlock
+         Canvas.Left="532"
+         Canvas.Top="1041"
+         Text="POWER"
+         Foreground="#A4A4A4"
+         FontFamily="Segoe UI"
+         FontSize="11"
+         FontWeight="SemiBold"
+         Width="118"
+         TextAlignment="Center" /&gt;
+      &lt;Rectangle
+         Canvas.Left="676"
+         Canvas.Top="742"
+         Width="142"
+         Height="339"
+         Fill="#363636"
+         Stroke="#515151"
+         StrokeThickness="1"
+         RadiusX="5"
+         RadiusY="5" /&gt;
+      &lt;Rectangle
+         Canvas.Left="677"
+         Canvas.Top="743"
+         Width="140"
+         Height="41"
+         Fill="#3C3C3C"
+         Stroke="#3C3C3C"
+         StrokeThickness="0"
+         RadiusX="5"
+         RadiusY="5" /&gt;
+      &lt;TextBlock
+         Canvas.Left="680"
+         Canvas.Top="750"
+         Text="PIN 05"
+         Foreground="#E8E8E8"
+         FontFamily="Segoe UI"
+         FontSize="17"
+         FontWeight="SemiBold"
+         Width="134"
+         TextAlignment="Center" /&gt;
+      &lt;Line
+         X1="688"
+         Y1="784"
+         X2="806"
+         Y2="784"
+         Stroke="#515151"
+         StrokeThickness="1" /&gt;
+      &lt;TextBlock
+         Canvas.Left="688"
+         Canvas.Top="811"
+         Text="15 A"
+         Foreground="#A4A4A4"
+         FontFamily="Segoe UI"
+         FontSize="12"
+         FontWeight="Normal" /&gt;
+      &lt;TextBlock
+         Canvas.Left="693"
+         Canvas.Top="907"
+         Text="0 A"
+         Foreground="#A4A4A4"
+         FontFamily="Segoe UI"
+         FontSize="12"
+         FontWeight="Normal" /&gt;
+      &lt;TextBlock
+         Canvas.Left="688"
+         Canvas.Top="938"
+         Text="CURRENT"
+         Foreground="#A4A4A4"
+         FontFamily="Segoe UI"
+         FontSize="11"
+         FontWeight="SemiBold"
+         Width="118"
+         TextAlignment="Center" /&gt;
+      &lt;Line
+         X1="688"
+         Y1="986"
+         X2="806"
+         Y2="986"
+         Stroke="#515151"
+         StrokeThickness="0.8" /&gt;
+      &lt;TextBlock
+         Canvas.Left="688"
+         Canvas.Top="993"
+         Text="VOLTAGE"
+         Foreground="#A4A4A4"
+         FontFamily="Segoe UI"
+         FontSize="11"
+         FontWeight="SemiBold"
+         Width="118"
+         TextAlignment="Center" /&gt;
+      &lt;TextBlock
+         Canvas.Left="688"
+         Canvas.Top="1041"
+         Text="POWER"
+         Foreground="#A4A4A4"
+         FontFamily="Segoe UI"
+         FontSize="11"
+         FontWeight="SemiBold"
+         Width="118"
+         TextAlignment="Center" /&gt;
+      &lt;Rectangle
+         Canvas.Left="832"
+         Canvas.Top="742"
+         Width="142"
+         Height="339"
+         Fill="#363636"
+         Stroke="#515151"
+         StrokeThickness="1"
+         RadiusX="5"
+         RadiusY="5" /&gt;
+      &lt;Rectangle
+         Canvas.Left="833"
+         Canvas.Top="743"
+         Width="140"
+         Height="41"
+         Fill="#3C3C3C"
+         Stroke="#3C3C3C"
+         StrokeThickness="0"
+         RadiusX="5"
+         RadiusY="5" /&gt;
+      &lt;TextBlock
+         Canvas.Left="836"
+         Canvas.Top="750"
+         Text="PIN 06"
+         Foreground="#E8E8E8"
+         FontFamily="Segoe UI"
+         FontSize="17"
+         FontWeight="SemiBold"
+         Width="134"
+         TextAlignment="Center" /&gt;
+      &lt;Line
+         X1="844"
+         Y1="784"
+         X2="962"
+         Y2="784"
+         Stroke="#515151"
+         StrokeThickness="1" /&gt;
+      &lt;TextBlock
+         Canvas.Left="844"
+         Canvas.Top="811"
+         Text="15 A"
+         Foreground="#A4A4A4"
+         FontFamily="Segoe UI"
+         FontSize="12"
+         FontWeight="Normal" /&gt;
+      &lt;TextBlock
+         Canvas.Left="849"
+         Canvas.Top="907"
+         Text="0 A"
+         Foreground="#A4A4A4"
+         FontFamily="Segoe UI"
+         FontSize="12"
+         FontWeight="Normal" /&gt;
+      &lt;TextBlock
+         Canvas.Left="844"
+         Canvas.Top="938"
+         Text="CURRENT"
+         Foreground="#A4A4A4"
+         FontFamily="Segoe UI"
+         FontSize="11"
+         FontWeight="SemiBold"
+         Width="118"
+         TextAlignment="Center" /&gt;
+      &lt;Line
+         X1="844"
+         Y1="986"
+         X2="962"
+         Y2="986"
+         Stroke="#515151"
+         StrokeThickness="0.8" /&gt;
+      &lt;TextBlock
+         Canvas.Left="844"
+         Canvas.Top="993"
+         Text="VOLTAGE"
+         Foreground="#A4A4A4"
+         FontFamily="Segoe UI"
+         FontSize="11"
+         FontWeight="SemiBold"
+         Width="118"
+         TextAlignment="Center" /&gt;
+      &lt;TextBlock
+         Canvas.Left="844"
+         Canvas.Top="1041"
+         Text="POWER"
+         Foreground="#A4A4A4"
+         FontFamily="Segoe UI"
+         FontSize="11"
+         FontWeight="SemiBold"
+         Width="118"
+         TextAlignment="Center" /&gt;
+      &lt;TextBlock
+         Canvas.Left="1046"
+         Canvas.Top="693"
+         Text="PCIe Slot (PEG)"
+         Foreground="#E8E8E8"
+         FontFamily="Segoe UI"
+         FontSize="29"
+         FontWeight="SemiBold" /&gt;
+      &lt;Rectangle
+         Canvas.Left="1046"
+         Canvas.Top="754"
+         Width="500"
+         Height="104"
+         Fill="#383838"
+         Stroke="#505050"
+         StrokeThickness="1"
+         RadiusX="5"
+         RadiusY="5" /&gt;
+      &lt;TextBlock
+         Canvas.Left="1060"
+         Canvas.Top="763"
+         Text="VOLTAGE"
+         Foreground="#E8E8E8"
+         FontFamily="Segoe UI"
+         FontSize="15"
+         FontWeight="SemiBold" /&gt;
+      &lt;Line
+         X1="1366"
+         Y1="768"
+         X2="1366"
+         Y2="843"
+         Stroke="#444444"
+         StrokeThickness="0.6" /&gt;
+      &lt;Line
+         X1="1420"
+         Y1="768"
+         X2="1420"
+         Y2="843"
+         Stroke="#444444"
+         StrokeThickness="0.6" /&gt;
+      &lt;Line
+         X1="1474"
+         Y1="768"
+         X2="1474"
+         Y2="843"
+         Stroke="#444444"
+         StrokeThickness="0.6" /&gt;
+      &lt;Rectangle
+         Canvas.Left="1046"
+         Canvas.Top="865"
+         Width="500"
+         Height="104"
+         Fill="#383838"
+         Stroke="#505050"
+         StrokeThickness="1"
+         RadiusX="5"
+         RadiusY="5" /&gt;
+      &lt;TextBlock
+         Canvas.Left="1060"
+         Canvas.Top="874"
+         Text="CURRENT"
+         Foreground="#E8E8E8"
+         FontFamily="Segoe UI"
+         FontSize="15"
+         FontWeight="SemiBold" /&gt;
+      &lt;Line
+         X1="1366"
+         Y1="879"
+         X2="1366"
+         Y2="954"
+         Stroke="#444444"
+         StrokeThickness="0.6" /&gt;
+      &lt;Line
+         X1="1420"
+         Y1="879"
+         X2="1420"
+         Y2="954"
+         Stroke="#444444"
+         StrokeThickness="0.6" /&gt;
+      &lt;Line
+         X1="1474"
+         Y1="879"
+         X2="1474"
+         Y2="954"
+         Stroke="#444444"
+         StrokeThickness="0.6" /&gt;
+      &lt;Rectangle
+         Canvas.Left="1046"
+         Canvas.Top="976"
+         Width="500"
+         Height="104"
+         Fill="#383838"
+         Stroke="#505050"
+         StrokeThickness="1"
+         RadiusX="5"
+         RadiusY="5" /&gt;
+      &lt;TextBlock
+         Canvas.Left="1060"
+         Canvas.Top="985"
+         Text="POWER"
+         Foreground="#E8E8E8"
+         FontFamily="Segoe UI"
+         FontSize="15"
+         FontWeight="SemiBold" /&gt;
+      &lt;Line
+         X1="1366"
+         Y1="990"
+         X2="1366"
+         Y2="1065"
+         Stroke="#444444"
+         StrokeThickness="0.6" /&gt;
+      &lt;Line
+         X1="1420"
+         Y1="990"
+         X2="1420"
+         Y2="1065"
+         Stroke="#444444"
+         StrokeThickness="0.6" /&gt;
+      &lt;Line
+         X1="1474"
+         Y1="990"
+         X2="1474"
+         Y2="1065"
+         Stroke="#444444"
+         StrokeThickness="0.6" /&gt;
+   &lt;/Canvas&gt;
+&lt;/UserControl&gt;</xamlCode>
+    </SettingsBase>
+    <SettingsBase xsi:type="SettingsXamlItem">
+      <_font>
+        <size>22</size>
+        <w>Normal</w>
+        <st>Normal</st>
+        <f>Segoe UI</f>
+        <col>#ff000000</col>
+      </_font>
+      <itemType>XamlControl</itemType>
+      <X>291</X>
+      <Y>289</Y>
+      <Height>37</Height>
+      <Width>365</Width>
+      <ZOrder>3</ZOrder>
+      <Opacity>1</Opacity>
+      <SnapToGrid>false</SnapToGrid>
+      <GridSize>10</GridSize>
+      <font>
+        <size>22</size>
+        <w>Normal</w>
+        <st>Normal</st>
+        <f>Segoe UI</f>
+        <col>#ff000000</col>
+      </font>
+      <connection>service_data:1:data\sensor\hwinfo/dgpu_0_nvidia_geforce_rtx_5080_asus_rog_astral_geforce_rtx_5080_oc_ite_it8915fn/17/gpu_vrm1_temperature/16777216</connection>
+      <xamlCode>&lt;UserControl
+   xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+   xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+   xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+   xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+   xmlns:sys="clr-namespace:System;assembly=mscorlib"
+   x:Name="this"
+   mc:Ignorable="d"
+   d:DesignWidth="400"
+   d:DesignHeight="200"&gt;
+   &lt;Grid
+      Background="Transparent"&gt;
+      &lt;Canvas&gt;
+         &lt;TextBlock
+            Canvas.Left="2"
+            Canvas.Top="0"
+            FontFamily="Segoe UI"
+            FontSize="22"
+            FontWeight="SemiBold"
+            Foreground="#E8E8E8"
+            Text="{Binding ElementName=this, Path=DataContext.Value, StringFormat={}{0:F1}, FallbackValue=—}" /&gt;
+         &lt;ProgressBar
+            Canvas.Left="129"
+            Canvas.Top="9"
+            Width="223"
+            Height="14"
+            Minimum="0"
+            Maximum="100"
+            Value="{Binding ElementName=this, Path=DataContext.Value, FallbackValue=0}"&gt;
+            &lt;ProgressBar.Template&gt;
+               &lt;ControlTemplate
+                  TargetType="{x:Type ProgressBar}"&gt;
+                  &lt;Grid&gt;
+                     &lt;Border
+                        x:Name="PART_Track"
+                        Background="#272727"
+                        CornerRadius="4" /&gt;
+                     &lt;Border
+                        x:Name="PART_Indicator"
+                        CornerRadius="4"
+                        HorizontalAlignment="Left"&gt;
+                        &lt;Border.Background&gt;
+                           &lt;LinearGradientBrush
+                              MappingMode="Absolute"
+                              StartPoint="0,0"
+                              EndPoint="223,0"&gt;
+                              &lt;GradientStop
+                                 Color="#72B87B"
+                                 Offset="0" /&gt;
+                              &lt;GradientStop
+                                 Color="#72B87B"
+                                 Offset="0.80" /&gt;
+                              &lt;GradientStop
+                                 Color="#D6B05A"
+                                 Offset="0.80" /&gt;
+                              &lt;GradientStop
+                                 Color="#D6B05A"
+                                 Offset="0.95" /&gt;
+                              &lt;GradientStop
+                                 Color="#CB6158"
+                                 Offset="0.95" /&gt;
+                              &lt;GradientStop
+                                 Color="#CB6158"
+                                 Offset="1" /&gt;
+                           &lt;/LinearGradientBrush&gt;
+                        &lt;/Border.Background&gt;
+                     &lt;/Border&gt;
+                  &lt;/Grid&gt;
+               &lt;/ControlTemplate&gt;
+            &lt;/ProgressBar.Template&gt;
+         &lt;/ProgressBar&gt;
+      &lt;/Canvas&gt;
+   &lt;/Grid&gt;
+&lt;/UserControl&gt;</xamlCode>
+    </SettingsBase>
+    <SettingsBase xsi:type="SettingsXamlItem">
+      <_font>
+        <size>22</size>
+        <w>Normal</w>
+        <st>Normal</st>
+        <f>Segoe UI</f>
+        <col>#ff000000</col>
+      </_font>
+      <itemType>XamlControl</itemType>
+      <X>291</X>
+      <Y>334</Y>
+      <Height>37</Height>
+      <Width>365</Width>
+      <ZOrder>3</ZOrder>
+      <Opacity>1</Opacity>
+      <SnapToGrid>false</SnapToGrid>
+      <GridSize>10</GridSize>
+      <font>
+        <size>22</size>
+        <w>Normal</w>
+        <st>Normal</st>
+        <f>Segoe UI</f>
+        <col>#ff000000</col>
+      </font>
+      <connection>service_data:1:data\sensor\hwinfo/dgpu_0_nvidia_geforce_rtx_5080_asus_rog_astral_geforce_rtx_5080_oc_ite_it8915fn/17/gpu_chip_temperature/16777217</connection>
+      <xamlCode>&lt;UserControl
+   xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+   xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+   xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+   xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+   xmlns:sys="clr-namespace:System;assembly=mscorlib"
+   x:Name="this"
+   mc:Ignorable="d"
+   d:DesignWidth="400"
+   d:DesignHeight="200"&gt;
+   &lt;Grid
+      Background="Transparent"&gt;
+      &lt;Canvas&gt;
+         &lt;TextBlock
+            Canvas.Left="2"
+            Canvas.Top="0"
+            FontFamily="Segoe UI"
+            FontSize="22"
+            FontWeight="SemiBold"
+            Foreground="#E8E8E8"
+            Text="{Binding ElementName=this, Path=DataContext.Value, StringFormat={}{0:F1}, FallbackValue=—}" /&gt;
+         &lt;ProgressBar
+            Canvas.Left="129"
+            Canvas.Top="9"
+            Width="223"
+            Height="14"
+            Minimum="0"
+            Maximum="100"
+            Value="{Binding ElementName=this, Path=DataContext.Value, FallbackValue=0}"&gt;
+            &lt;ProgressBar.Template&gt;
+               &lt;ControlTemplate
+                  TargetType="{x:Type ProgressBar}"&gt;
+                  &lt;Grid&gt;
+                     &lt;Border
+                        x:Name="PART_Track"
+                        Background="#272727"
+                        CornerRadius="4" /&gt;
+                     &lt;Border
+                        x:Name="PART_Indicator"
+                        CornerRadius="4"
+                        HorizontalAlignment="Left"&gt;
+                        &lt;Border.Background&gt;
+                           &lt;LinearGradientBrush
+                              MappingMode="Absolute"
+                              StartPoint="0,0"
+                              EndPoint="223,0"&gt;
+                              &lt;GradientStop
+                                 Color="#72B87B"
+                                 Offset="0" /&gt;
+                              &lt;GradientStop
+                                 Color="#72B87B"
+                                 Offset="0.75" /&gt;
+                              &lt;GradientStop
+                                 Color="#D6B05A"
+                                 Offset="0.75" /&gt;
+                              &lt;GradientStop
+                                 Color="#D6B05A"
+                                 Offset="0.82" /&gt;
+                              &lt;GradientStop
+                                 Color="#CB6158"
+                                 Offset="0.82" /&gt;
+                              &lt;GradientStop
+                                 Color="#CB6158"
+                                 Offset="1" /&gt;
+                           &lt;/LinearGradientBrush&gt;
+                        &lt;/Border.Background&gt;
+                     &lt;/Border&gt;
+                  &lt;/Grid&gt;
+               &lt;/ControlTemplate&gt;
+            &lt;/ProgressBar.Template&gt;
+         &lt;/ProgressBar&gt;
+      &lt;/Canvas&gt;
+   &lt;/Grid&gt;
+&lt;/UserControl&gt;</xamlCode>
+    </SettingsBase>
+    <SettingsBase xsi:type="SettingsXamlItem">
+      <_font>
+        <size>22</size>
+        <w>Normal</w>
+        <st>Normal</st>
+        <f>Segoe UI</f>
+        <col>#ff000000</col>
+      </_font>
+      <itemType>XamlControl</itemType>
+      <X>291</X>
+      <Y>379</Y>
+      <Height>37</Height>
+      <Width>365</Width>
+      <ZOrder>3</ZOrder>
+      <Opacity>1</Opacity>
+      <SnapToGrid>false</SnapToGrid>
+      <GridSize>10</GridSize>
+      <font>
+        <size>22</size>
+        <w>Normal</w>
+        <st>Normal</st>
+        <f>Segoe UI</f>
+        <col>#ff000000</col>
+      </font>
+      <connection>service_data:1:data\sensor\hwinfo/dgpu_0_nvidia_geforce_rtx_5080_asus_rog_astral_geforce_rtx_5080_oc_ite_it8915fn/17/gpu_memory1_temperature/16777218</connection>
+      <xamlCode>&lt;UserControl
+   xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+   xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+   xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+   xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+   xmlns:sys="clr-namespace:System;assembly=mscorlib"
+   x:Name="this"
+   mc:Ignorable="d"
+   d:DesignWidth="400"
+   d:DesignHeight="200"&gt;
+   &lt;Grid
+      Background="Transparent"&gt;
+      &lt;Canvas&gt;
+         &lt;TextBlock
+            Canvas.Left="2"
+            Canvas.Top="0"
+            FontFamily="Segoe UI"
+            FontSize="22"
+            FontWeight="SemiBold"
+            Foreground="#E8E8E8"
+            Text="{Binding ElementName=this, Path=DataContext.Value, StringFormat={}{0:F1}, FallbackValue=—}" /&gt;
+         &lt;ProgressBar
+            Canvas.Left="129"
+            Canvas.Top="9"
+            Width="223"
+            Height="14"
+            Minimum="0"
+            Maximum="100"
+            Value="{Binding ElementName=this, Path=DataContext.Value, FallbackValue=0}"&gt;
+            &lt;ProgressBar.Template&gt;
+               &lt;ControlTemplate
+                  TargetType="{x:Type ProgressBar}"&gt;
+                  &lt;Grid&gt;
+                     &lt;Border
+                        x:Name="PART_Track"
+                        Background="#272727"
+                        CornerRadius="4" /&gt;
+                     &lt;Border
+                        x:Name="PART_Indicator"
+                        CornerRadius="4"
+                        HorizontalAlignment="Left"&gt;
+                        &lt;Border.Background&gt;
+                           &lt;LinearGradientBrush
+                              MappingMode="Absolute"
+                              StartPoint="0,0"
+                              EndPoint="223,0"&gt;
+                              &lt;GradientStop
+                                 Color="#72B87B"
+                                 Offset="0" /&gt;
+                              &lt;GradientStop
+                                 Color="#72B87B"
+                                 Offset="0.80" /&gt;
+                              &lt;GradientStop
+                                 Color="#D6B05A"
+                                 Offset="0.80" /&gt;
+                              &lt;GradientStop
+                                 Color="#D6B05A"
+                                 Offset="0.90" /&gt;
+                              &lt;GradientStop
+                                 Color="#CB6158"
+                                 Offset="0.90" /&gt;
+                              &lt;GradientStop
+                                 Color="#CB6158"
+                                 Offset="1" /&gt;
+                           &lt;/LinearGradientBrush&gt;
+                        &lt;/Border.Background&gt;
+                     &lt;/Border&gt;
+                  &lt;/Grid&gt;
+               &lt;/ControlTemplate&gt;
+            &lt;/ProgressBar.Template&gt;
+         &lt;/ProgressBar&gt;
+      &lt;/Canvas&gt;
+   &lt;/Grid&gt;
+&lt;/UserControl&gt;</xamlCode>
+    </SettingsBase>
+    <SettingsBase xsi:type="SettingsXamlItem">
+      <_font>
+        <size>22</size>
+        <w>Normal</w>
+        <st>Normal</st>
+        <f>Segoe UI</f>
+        <col>#ff000000</col>
+      </_font>
+      <itemType>XamlControl</itemType>
+      <X>291</X>
+      <Y>424</Y>
+      <Height>37</Height>
+      <Width>365</Width>
+      <ZOrder>3</ZOrder>
+      <Opacity>1</Opacity>
+      <SnapToGrid>false</SnapToGrid>
+      <GridSize>10</GridSize>
+      <font>
+        <size>22</size>
+        <w>Normal</w>
+        <st>Normal</st>
+        <f>Segoe UI</f>
+        <col>#ff000000</col>
+      </font>
+      <connection>service_data:1:data\sensor\hwinfo/dgpu_0_nvidia_geforce_rtx_5080_asus_rog_astral_geforce_rtx_5080_oc_ite_it8915fn/17/gpu_memory2_temperature/16777219</connection>
+      <xamlCode>&lt;UserControl
+   xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+   xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+   xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+   xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+   xmlns:sys="clr-namespace:System;assembly=mscorlib"
+   x:Name="this"
+   mc:Ignorable="d"
+   d:DesignWidth="400"
+   d:DesignHeight="200"&gt;
+   &lt;Grid
+      Background="Transparent"&gt;
+      &lt;Canvas&gt;
+         &lt;TextBlock
+            Canvas.Left="2"
+            Canvas.Top="0"
+            FontFamily="Segoe UI"
+            FontSize="22"
+            FontWeight="SemiBold"
+            Foreground="#E8E8E8"
+            Text="{Binding ElementName=this, Path=DataContext.Value, StringFormat={}{0:F1}, FallbackValue=—}" /&gt;
+         &lt;ProgressBar
+            Canvas.Left="129"
+            Canvas.Top="9"
+            Width="223"
+            Height="14"
+            Minimum="0"
+            Maximum="100"
+            Value="{Binding ElementName=this, Path=DataContext.Value, FallbackValue=0}"&gt;
+            &lt;ProgressBar.Template&gt;
+               &lt;ControlTemplate
+                  TargetType="{x:Type ProgressBar}"&gt;
+                  &lt;Grid&gt;
+                     &lt;Border
+                        x:Name="PART_Track"
+                        Background="#272727"
+                        CornerRadius="4" /&gt;
+                     &lt;Border
+                        x:Name="PART_Indicator"
+                        CornerRadius="4"
+                        HorizontalAlignment="Left"&gt;
+                        &lt;Border.Background&gt;
+                           &lt;LinearGradientBrush
+                              MappingMode="Absolute"
+                              StartPoint="0,0"
+                              EndPoint="223,0"&gt;
+                              &lt;GradientStop
+                                 Color="#72B87B"
+                                 Offset="0" /&gt;
+                              &lt;GradientStop
+                                 Color="#72B87B"
+                                 Offset="0.80" /&gt;
+                              &lt;GradientStop
+                                 Color="#D6B05A"
+                                 Offset="0.80" /&gt;
+                              &lt;GradientStop
+                                 Color="#D6B05A"
+                                 Offset="0.90" /&gt;
+                              &lt;GradientStop
+                                 Color="#CB6158"
+                                 Offset="0.90" /&gt;
+                              &lt;GradientStop
+                                 Color="#CB6158"
+                                 Offset="1" /&gt;
+                           &lt;/LinearGradientBrush&gt;
+                        &lt;/Border.Background&gt;
+                     &lt;/Border&gt;
+                  &lt;/Grid&gt;
+               &lt;/ControlTemplate&gt;
+            &lt;/ProgressBar.Template&gt;
+         &lt;/ProgressBar&gt;
+      &lt;/Canvas&gt;
+   &lt;/Grid&gt;
+&lt;/UserControl&gt;</xamlCode>
+    </SettingsBase>
+    <SettingsBase xsi:type="SettingsXamlItem">
+      <_font>
+        <size>22</size>
+        <w>Normal</w>
+        <st>Normal</st>
+        <f>Segoe UI</f>
+        <col>#ff000000</col>
+      </_font>
+      <itemType>XamlControl</itemType>
+      <X>291</X>
+      <Y>469</Y>
+      <Height>37</Height>
+      <Width>365</Width>
+      <ZOrder>3</ZOrder>
+      <Opacity>1</Opacity>
+      <SnapToGrid>false</SnapToGrid>
+      <GridSize>10</GridSize>
+      <font>
+        <size>22</size>
+        <w>Normal</w>
+        <st>Normal</st>
+        <f>Segoe UI</f>
+        <col>#ff000000</col>
+      </font>
+      <connection>service_data:1:data\sensor\hwinfo/dgpu_0_nvidia_geforce_rtx_5080_asus_rog_astral_geforce_rtx_5080_oc_ite_it8915fn/17/gpu_vrm2_temperature/16777220</connection>
+      <xamlCode>&lt;UserControl
+   xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+   xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+   xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+   xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+   xmlns:sys="clr-namespace:System;assembly=mscorlib"
+   x:Name="this"
+   mc:Ignorable="d"
+   d:DesignWidth="400"
+   d:DesignHeight="200"&gt;
+   &lt;Grid
+      Background="Transparent"&gt;
+      &lt;Canvas&gt;
+         &lt;TextBlock
+            Canvas.Left="2"
+            Canvas.Top="0"
+            FontFamily="Segoe UI"
+            FontSize="22"
+            FontWeight="SemiBold"
+            Foreground="#E8E8E8"
+            Text="{Binding ElementName=this, Path=DataContext.Value, StringFormat={}{0:F1}, FallbackValue=—}" /&gt;
+         &lt;ProgressBar
+            Canvas.Left="129"
+            Canvas.Top="9"
+            Width="223"
+            Height="14"
+            Minimum="0"
+            Maximum="100"
+            Value="{Binding ElementName=this, Path=DataContext.Value, FallbackValue=0}"&gt;
+            &lt;ProgressBar.Template&gt;
+               &lt;ControlTemplate
+                  TargetType="{x:Type ProgressBar}"&gt;
+                  &lt;Grid&gt;
+                     &lt;Border
+                        x:Name="PART_Track"
+                        Background="#272727"
+                        CornerRadius="4" /&gt;
+                     &lt;Border
+                        x:Name="PART_Indicator"
+                        CornerRadius="4"
+                        HorizontalAlignment="Left"&gt;
+                        &lt;Border.Background&gt;
+                           &lt;LinearGradientBrush
+                              MappingMode="Absolute"
+                              StartPoint="0,0"
+                              EndPoint="223,0"&gt;
+                              &lt;GradientStop
+                                 Color="#72B87B"
+                                 Offset="0" /&gt;
+                              &lt;GradientStop
+                                 Color="#72B87B"
+                                 Offset="0.80" /&gt;
+                              &lt;GradientStop
+                                 Color="#D6B05A"
+                                 Offset="0.80" /&gt;
+                              &lt;GradientStop
+                                 Color="#D6B05A"
+                                 Offset="0.95" /&gt;
+                              &lt;GradientStop
+                                 Color="#CB6158"
+                                 Offset="0.95" /&gt;
+                              &lt;GradientStop
+                                 Color="#CB6158"
+                                 Offset="1" /&gt;
+                           &lt;/LinearGradientBrush&gt;
+                        &lt;/Border.Background&gt;
+                     &lt;/Border&gt;
+                  &lt;/Grid&gt;
+               &lt;/ControlTemplate&gt;
+            &lt;/ProgressBar.Template&gt;
+         &lt;/ProgressBar&gt;
+      &lt;/Canvas&gt;
+   &lt;/Grid&gt;
+&lt;/UserControl&gt;</xamlCode>
+    </SettingsBase>
+    <SettingsBase xsi:type="SettingsXamlItem">
+      <_font>
+        <size>22</size>
+        <w>Normal</w>
+        <st>Normal</st>
+        <f>Segoe UI</f>
+        <col>#ff000000</col>
+      </_font>
+      <itemType>XamlControl</itemType>
+      <X>291</X>
+      <Y>514</Y>
+      <Height>37</Height>
+      <Width>365</Width>
+      <ZOrder>3</ZOrder>
+      <Opacity>1</Opacity>
+      <SnapToGrid>false</SnapToGrid>
+      <GridSize>10</GridSize>
+      <font>
+        <size>22</size>
+        <w>Normal</w>
+        <st>Normal</st>
+        <f>Segoe UI</f>
+        <col>#ff000000</col>
+      </font>
+      <connection>service_data:1:data\sensor\hwinfo/dgpu_0_nvidia_geforce_rtx_5080_asus_rog_astral_geforce_rtx_5080_oc_ite_it8915fn/17/gpu_board_temperature_6/16777221</connection>
+      <xamlCode>&lt;UserControl
+   xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+   xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+   xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+   xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+   xmlns:sys="clr-namespace:System;assembly=mscorlib"
+   x:Name="this"
+   mc:Ignorable="d"
+   d:DesignWidth="400"
+   d:DesignHeight="200"&gt;
+   &lt;Grid
+      Background="Transparent"&gt;
+      &lt;Canvas&gt;
+         &lt;TextBlock
+            Canvas.Left="2"
+            Canvas.Top="0"
+            FontFamily="Segoe UI"
+            FontSize="22"
+            FontWeight="SemiBold"
+            Foreground="#E8E8E8"
+            Text="{Binding ElementName=this, Path=DataContext.Value, StringFormat={}{0:F1}, FallbackValue=—}" /&gt;
+         &lt;ProgressBar
+            Canvas.Left="129"
+            Canvas.Top="9"
+            Width="223"
+            Height="14"
+            Minimum="0"
+            Maximum="100"
+            Value="{Binding ElementName=this, Path=DataContext.Value, FallbackValue=0}"&gt;
+            &lt;ProgressBar.Template&gt;
+               &lt;ControlTemplate
+                  TargetType="{x:Type ProgressBar}"&gt;
+                  &lt;Grid&gt;
+                     &lt;Border
+                        x:Name="PART_Track"
+                        Background="#272727"
+                        CornerRadius="4" /&gt;
+                     &lt;Border
+                        x:Name="PART_Indicator"
+                        CornerRadius="4"
+                        HorizontalAlignment="Left"&gt;
+                        &lt;Border.Background&gt;
+                           &lt;LinearGradientBrush
+                              MappingMode="Absolute"
+                              StartPoint="0,0"
+                              EndPoint="223,0"&gt;
+                              &lt;GradientStop
+                                 Color="#72B87B"
+                                 Offset="0" /&gt;
+                              &lt;GradientStop
+                                 Color="#72B87B"
+                                 Offset="0.70" /&gt;
+                              &lt;GradientStop
+                                 Color="#D6B05A"
+                                 Offset="0.70" /&gt;
+                              &lt;GradientStop
+                                 Color="#D6B05A"
+                                 Offset="0.85" /&gt;
+                              &lt;GradientStop
+                                 Color="#CB6158"
+                                 Offset="0.85" /&gt;
+                              &lt;GradientStop
+                                 Color="#CB6158"
+                                 Offset="1" /&gt;
+                           &lt;/LinearGradientBrush&gt;
+                        &lt;/Border.Background&gt;
+                     &lt;/Border&gt;
+                  &lt;/Grid&gt;
+               &lt;/ControlTemplate&gt;
+            &lt;/ProgressBar.Template&gt;
+         &lt;/ProgressBar&gt;
+      &lt;/Canvas&gt;
+   &lt;/Grid&gt;
+&lt;/UserControl&gt;</xamlCode>
+    </SettingsBase>
+    <SettingsBase xsi:type="SettingsXamlItem">
+      <_font>
+        <size>22</size>
+        <w>Normal</w>
+        <st>Normal</st>
+        <f>Segoe UI</f>
+        <col>#ff000000</col>
+      </_font>
+      <itemType>XamlControl</itemType>
+      <X>291</X>
+      <Y>559</Y>
+      <Height>37</Height>
+      <Width>365</Width>
+      <ZOrder>3</ZOrder>
+      <Opacity>1</Opacity>
+      <SnapToGrid>false</SnapToGrid>
+      <GridSize>10</GridSize>
+      <font>
+        <size>22</size>
+        <w>Normal</w>
+        <st>Normal</st>
+        <f>Segoe UI</f>
+        <col>#ff000000</col>
+      </font>
+      <connection>service_data:1:data\sensor\hwinfo/dgpu_0_nvidia_geforce_rtx_5080_asus_rog_astral_geforce_rtx_5080_oc_ite_it8915fn/17/gpu_board_temperature_7/16777222</connection>
+      <xamlCode>&lt;UserControl
+   xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+   xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+   xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+   xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+   xmlns:sys="clr-namespace:System;assembly=mscorlib"
+   x:Name="this"
+   mc:Ignorable="d"
+   d:DesignWidth="400"
+   d:DesignHeight="200"&gt;
+   &lt;Grid
+      Background="Transparent"&gt;
+      &lt;Canvas&gt;
+         &lt;TextBlock
+            Canvas.Left="2"
+            Canvas.Top="0"
+            FontFamily="Segoe UI"
+            FontSize="22"
+            FontWeight="SemiBold"
+            Foreground="#E8E8E8"
+            Text="{Binding ElementName=this, Path=DataContext.Value, StringFormat={}{0:F1}, FallbackValue=—}" /&gt;
+         &lt;ProgressBar
+            Canvas.Left="129"
+            Canvas.Top="9"
+            Width="223"
+            Height="14"
+            Minimum="0"
+            Maximum="100"
+            Value="{Binding ElementName=this, Path=DataContext.Value, FallbackValue=0}"&gt;
+            &lt;ProgressBar.Template&gt;
+               &lt;ControlTemplate
+                  TargetType="{x:Type ProgressBar}"&gt;
+                  &lt;Grid&gt;
+                     &lt;Border
+                        x:Name="PART_Track"
+                        Background="#272727"
+                        CornerRadius="4" /&gt;
+                     &lt;Border
+                        x:Name="PART_Indicator"
+                        CornerRadius="4"
+                        HorizontalAlignment="Left"&gt;
+                        &lt;Border.Background&gt;
+                           &lt;LinearGradientBrush
+                              MappingMode="Absolute"
+                              StartPoint="0,0"
+                              EndPoint="223,0"&gt;
+                              &lt;GradientStop
+                                 Color="#72B87B"
+                                 Offset="0" /&gt;
+                              &lt;GradientStop
+                                 Color="#72B87B"
+                                 Offset="0.70" /&gt;
+                              &lt;GradientStop
+                                 Color="#D6B05A"
+                                 Offset="0.70" /&gt;
+                              &lt;GradientStop
+                                 Color="#D6B05A"
+                                 Offset="0.85" /&gt;
+                              &lt;GradientStop
+                                 Color="#CB6158"
+                                 Offset="0.85" /&gt;
+                              &lt;GradientStop
+                                 Color="#CB6158"
+                                 Offset="1" /&gt;
+                           &lt;/LinearGradientBrush&gt;
+                        &lt;/Border.Background&gt;
+                     &lt;/Border&gt;
+                  &lt;/Grid&gt;
+               &lt;/ControlTemplate&gt;
+            &lt;/ProgressBar.Template&gt;
+         &lt;/ProgressBar&gt;
+      &lt;/Canvas&gt;
+   &lt;/Grid&gt;
+&lt;/UserControl&gt;</xamlCode>
+    </SettingsBase>
+    <SettingsBase xsi:type="SettingsXamlItem">
+      <_font>
+        <size>22</size>
+        <w>Normal</w>
+        <st>Normal</st>
+        <f>Segoe UI</f>
+        <col>#ff000000</col>
+      </_font>
+      <itemType>XamlControl</itemType>
+      <X>291</X>
+      <Y>604</Y>
+      <Height>37</Height>
+      <Width>365</Width>
+      <ZOrder>3</ZOrder>
+      <Opacity>1</Opacity>
+      <SnapToGrid>false</SnapToGrid>
+      <GridSize>10</GridSize>
+      <font>
+        <size>22</size>
+        <w>Normal</w>
+        <st>Normal</st>
+        <f>Segoe UI</f>
+        <col>#ff000000</col>
+      </font>
+      <connection>service_data:1:data\sensor\hwinfo/dgpu_0_nvidia_geforce_rtx_5080_asus_rog_astral_geforce_rtx_5080_oc_ite_it8915fn/17/gpu_board_temperature_8/16777223</connection>
+      <xamlCode>&lt;UserControl
+   xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+   xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+   xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+   xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+   xmlns:sys="clr-namespace:System;assembly=mscorlib"
+   x:Name="this"
+   mc:Ignorable="d"
+   d:DesignWidth="400"
+   d:DesignHeight="200"&gt;
+   &lt;Grid
+      Background="Transparent"&gt;
+      &lt;Canvas&gt;
+         &lt;TextBlock
+            Canvas.Left="2"
+            Canvas.Top="0"
+            FontFamily="Segoe UI"
+            FontSize="22"
+            FontWeight="SemiBold"
+            Foreground="#E8E8E8"
+            Text="{Binding ElementName=this, Path=DataContext.Value, StringFormat={}{0:F1}, FallbackValue=—}" /&gt;
+         &lt;ProgressBar
+            Canvas.Left="129"
+            Canvas.Top="9"
+            Width="223"
+            Height="14"
+            Minimum="0"
+            Maximum="100"
+            Value="{Binding ElementName=this, Path=DataContext.Value, FallbackValue=0}"&gt;
+            &lt;ProgressBar.Template&gt;
+               &lt;ControlTemplate
+                  TargetType="{x:Type ProgressBar}"&gt;
+                  &lt;Grid&gt;
+                     &lt;Border
+                        x:Name="PART_Track"
+                        Background="#272727"
+                        CornerRadius="4" /&gt;
+                     &lt;Border
+                        x:Name="PART_Indicator"
+                        CornerRadius="4"
+                        HorizontalAlignment="Left"&gt;
+                        &lt;Border.Background&gt;
+                           &lt;LinearGradientBrush
+                              MappingMode="Absolute"
+                              StartPoint="0,0"
+                              EndPoint="223,0"&gt;
+                              &lt;GradientStop
+                                 Color="#72B87B"
+                                 Offset="0" /&gt;
+                              &lt;GradientStop
+                                 Color="#72B87B"
+                                 Offset="0.70" /&gt;
+                              &lt;GradientStop
+                                 Color="#D6B05A"
+                                 Offset="0.70" /&gt;
+                              &lt;GradientStop
+                                 Color="#D6B05A"
+                                 Offset="0.85" /&gt;
+                              &lt;GradientStop
+                                 Color="#CB6158"
+                                 Offset="0.85" /&gt;
+                              &lt;GradientStop
+                                 Color="#CB6158"
+                                 Offset="1" /&gt;
+                           &lt;/LinearGradientBrush&gt;
+                        &lt;/Border.Background&gt;
+                     &lt;/Border&gt;
+                  &lt;/Grid&gt;
+               &lt;/ControlTemplate&gt;
+            &lt;/ProgressBar.Template&gt;
+         &lt;/ProgressBar&gt;
+      &lt;/Canvas&gt;
+   &lt;/Grid&gt;
+&lt;/UserControl&gt;</xamlCode>
+    </SettingsBase>
+    <SettingsBase xsi:type="SettingsDataItem">
+      <_font>
+        <size>22</size>
+        <w>Normal</w>
+        <st>Normal</st>
+        <f>Segoe UI</f>
+        <col>#ffe8e8e8</col>
+      </_font>
+      <itemType>SensorData</itemType>
+      <X>725</X>
+      <Y>279</Y>
+      <Height>33</Height>
+      <Width>254</Width>
+      <ZOrder>4</ZOrder>
+      <Opacity>1</Opacity>
+      <SnapToGrid>false</SnapToGrid>
+      <GridSize>10</GridSize>
+      <font>
+        <size>22</size>
+        <w>Normal</w>
+        <st>Normal</st>
+        <f>Segoe UI</f>
+        <col>#ffe8e8e8</col>
+      </font>
+      <connection>service_data:1:data\sensor\hwinfo/dgpu_0_nvidia_geforce_rtx_5080_asus_rog_astral_geforce_rtx_5080_oc_ite_it8915fn/17/gpu_vrm1_temperature/16777216</connection>
+      <ItemStyle>CHART</ItemStyle>
+      <TitleSource>manual</TitleSource>
+      <Title>GPU VRM1 Temperature</Title>
+      <TitleShow>false</TitleShow>
+      <backgroundOpacity>0</backgroundOpacity>
+      <logTimespan>10</logTimespan>
+      <numberPrecision>1</numberPrecision>
+      <showStatistic>false</showStatistic>
+      <statisticPosition>right</statisticPosition>
+      <fontStatistic>
+        <size>14</size>
+        <w>Normal</w>
+        <st>Normal</st>
+        <f>Segoe UI</f>
+        <col>#ffffffff</col>
+      </fontStatistic>
+      <BarOrientation>Horizontal</BarOrientation>
+      <barHeight>25</barHeight>
+      <showBarValue>true</showBarValue>
+      <ShowBarGrid>false</ShowBarGrid>
+      <BarStartValue>0</BarStartValue>
+      <BarEndValue>100</BarEndValue>
+      <BarBorderColor>
+        <c>#00000000</c>
+      </BarBorderColor>
+      <BarBorderWidth>2</BarBorderWidth>
+      <BarBackgroundBorderColor>
+        <c>#00ffffff</c>
+      </BarBackgroundBorderColor>
+      <chartRangeSettings>manually</chartRangeSettings>
+      <rangeMin>15</rangeMin>
+      <rangeMax>100</rangeMax>
+      <zoomMax>5</zoomMax>
+      <chartGrowRangeValue>false</chartGrowRangeValue>
+      <chartLineWidth>2</chartLineWidth>
+      <chartLineColor>
+        <c>#00000000</c>
+      </chartLineColor>
+      <colors>
+        <col>
+          <c>#ff87c478</c>
+        </col>
+        <position>60.72</position>
+      </colors>
+      <colors>
+        <col>
+          <c>#ffc8c83c</c>
+        </col>
+        <position>80</position>
+      </colors>
+      <colors>
+        <col>
+          <c>#ffc87879</c>
+        </col>
+        <position>95</position>
+      </colors>
+      <backgroundMode>User</backgroundMode>
+      <backgroundColor>
+        <c>#00000000</c>
+      </backgroundColor>
+      <gauge>
+        <IndicatorHeight>8</IndicatorHeight>
+        <ScaleColor>
+          <c>#ff000000</c>
+        </ScaleColor>
+        <Minimum>0</Minimum>
+        <Maximum>100</Maximum>
+        <NeedleColor>
+          <c>#ff8b0000</c>
+        </NeedleColor>
+        <ShowStatisticBar>true</ShowStatisticBar>
+        <StatisticColor>
+          <c>#ff6aafd0</c>
+        </StatisticColor>
+        <StatisticHeight>5</StatisticHeight>
+        <ScaleAngle>120</ScaleAngle>
+        <MajorTickStep>10</MajorTickStep>
+        <MinorTickStep>5</MinorTickStep>
+      </gauge>
+      <ChartAxisFont>
+        <size>12</size>
+        <w>Normal</w>
+        <st>Normal</st>
+        <f>Segoe UI</f>
+        <col>#ff000000</col>
+      </ChartAxisFont>
+      <ChartAxisColor>
+        <c>#00000000</c>
+      </ChartAxisColor>
+      <ChartShowXAxis>false</ChartShowXAxis>
+      <ChartShowXAxisLabels>false</ChartShowXAxisLabels>
+      <ChartShowYAxis>false</ChartShowYAxis>
+      <ChartShowYAxisLabels>false</ChartShowYAxisLabels>
+      <ChartValueGridColor>
+        <c>#00000000</c>
+      </ChartValueGridColor>
+    </SettingsBase>
+    <SettingsBase xsi:type="SettingsDataItem">
+      <_font>
+        <size>22</size>
+        <w>Normal</w>
+        <st>Normal</st>
+        <f>Segoe UI</f>
+        <col>#ffe8e8e8</col>
+      </_font>
+      <itemType>SensorData</itemType>
+      <X>725</X>
+      <Y>323</Y>
+      <Height>33</Height>
+      <Width>254</Width>
+      <ZOrder>4</ZOrder>
+      <Opacity>1</Opacity>
+      <SnapToGrid>false</SnapToGrid>
+      <GridSize>10</GridSize>
+      <font>
+        <size>22</size>
+        <w>Normal</w>
+        <st>Normal</st>
+        <f>Segoe UI</f>
+        <col>#ffe8e8e8</col>
+      </font>
+      <connection>service_data:1:data\sensor\hwinfo/dgpu_0_nvidia_geforce_rtx_5080_asus_rog_astral_geforce_rtx_5080_oc_ite_it8915fn/17/gpu_chip_temperature/16777217</connection>
+      <ItemStyle>CHART</ItemStyle>
+      <TitleSource>manual</TitleSource>
+      <Title>GPU Chip Temperature</Title>
+      <TitleShow>false</TitleShow>
+      <backgroundOpacity>0</backgroundOpacity>
+      <logTimespan>10</logTimespan>
+      <numberPrecision>1</numberPrecision>
+      <showStatistic>false</showStatistic>
+      <statisticPosition>right</statisticPosition>
+      <fontStatistic>
+        <size>14</size>
+        <w>Normal</w>
+        <st>Normal</st>
+        <f>Segoe UI</f>
+        <col>#ffffffff</col>
+      </fontStatistic>
+      <BarOrientation>Horizontal</BarOrientation>
+      <barHeight>25</barHeight>
+      <showBarValue>true</showBarValue>
+      <ShowBarGrid>false</ShowBarGrid>
+      <BarStartValue>0</BarStartValue>
+      <BarEndValue>100</BarEndValue>
+      <BarBorderColor>
+        <c>#00000000</c>
+      </BarBorderColor>
+      <BarBorderWidth>2</BarBorderWidth>
+      <BarBackgroundBorderColor>
+        <c>#00ffffff</c>
+      </BarBackgroundBorderColor>
+      <chartRangeSettings>manually</chartRangeSettings>
+      <rangeMin>15</rangeMin>
+      <rangeMax>100</rangeMax>
+      <zoomMax>5</zoomMax>
+      <chartGrowRangeValue>false</chartGrowRangeValue>
+      <chartLineWidth>2</chartLineWidth>
+      <chartLineColor>
+        <c>#00000000</c>
+      </chartLineColor>
+      <colors>
+        <col>
+          <c>#ff87c878</c>
+        </col>
+        <position>50</position>
+      </colors>
+      <colors>
+        <col>
+          <c>#ffc8c83c</c>
+        </col>
+        <position>75</position>
+      </colors>
+      <colors>
+        <col>
+          <c>#ffc87878</c>
+        </col>
+        <position>82</position>
+      </colors>
+      <backgroundMode>User</backgroundMode>
+      <backgroundColor>
+        <c>#00000000</c>
+      </backgroundColor>
+      <gauge>
+        <IndicatorHeight>8</IndicatorHeight>
+        <ScaleColor>
+          <c>#ff000000</c>
+        </ScaleColor>
+        <Minimum>0</Minimum>
+        <Maximum>100</Maximum>
+        <NeedleColor>
+          <c>#ff8b0000</c>
+        </NeedleColor>
+        <ShowStatisticBar>true</ShowStatisticBar>
+        <StatisticColor>
+          <c>#ff6aafd0</c>
+        </StatisticColor>
+        <StatisticHeight>5</StatisticHeight>
+        <ScaleAngle>120</ScaleAngle>
+        <MajorTickStep>10</MajorTickStep>
+        <MinorTickStep>5</MinorTickStep>
+      </gauge>
+      <ChartAxisFont>
+        <size>12</size>
+        <w>Normal</w>
+        <st>Normal</st>
+        <f>Segoe UI</f>
+        <col>#ff000000</col>
+      </ChartAxisFont>
+      <ChartAxisColor>
+        <c>#00000000</c>
+      </ChartAxisColor>
+      <ChartShowXAxis>false</ChartShowXAxis>
+      <ChartShowXAxisLabels>false</ChartShowXAxisLabels>
+      <ChartShowYAxis>false</ChartShowYAxis>
+      <ChartShowYAxisLabels>false</ChartShowYAxisLabels>
+      <ChartValueGridColor>
+        <c>#00000000</c>
+      </ChartValueGridColor>
+    </SettingsBase>
+    <SettingsBase xsi:type="SettingsDataItem">
+      <_font>
+        <size>22</size>
+        <w>Normal</w>
+        <st>Normal</st>
+        <f>Segoe UI</f>
+        <col>#ffe8e8e8</col>
+      </_font>
+      <itemType>SensorData</itemType>
+      <X>725</X>
+      <Y>369</Y>
+      <Height>33</Height>
+      <Width>254</Width>
+      <ZOrder>4</ZOrder>
+      <Opacity>1</Opacity>
+      <SnapToGrid>false</SnapToGrid>
+      <GridSize>10</GridSize>
+      <font>
+        <size>22</size>
+        <w>Normal</w>
+        <st>Normal</st>
+        <f>Segoe UI</f>
+        <col>#ffe8e8e8</col>
+      </font>
+      <connection>service_data:1:data\sensor\hwinfo/dgpu_0_nvidia_geforce_rtx_5080_asus_rog_astral_geforce_rtx_5080_oc_ite_it8915fn/17/gpu_memory1_temperature/16777218</connection>
+      <ItemStyle>CHART</ItemStyle>
+      <TitleSource>manual</TitleSource>
+      <Title>GPU Memory1 Temperature</Title>
+      <TitleShow>false</TitleShow>
+      <backgroundOpacity>0</backgroundOpacity>
+      <logTimespan>10</logTimespan>
+      <numberPrecision>1</numberPrecision>
+      <showStatistic>false</showStatistic>
+      <statisticPosition>right</statisticPosition>
+      <fontStatistic>
+        <size>14</size>
+        <w>Normal</w>
+        <st>Normal</st>
+        <f>Segoe UI</f>
+        <col>#ffffffff</col>
+      </fontStatistic>
+      <BarOrientation>Horizontal</BarOrientation>
+      <barHeight>25</barHeight>
+      <showBarValue>true</showBarValue>
+      <ShowBarGrid>false</ShowBarGrid>
+      <BarStartValue>0</BarStartValue>
+      <BarEndValue>100</BarEndValue>
+      <BarBorderColor>
+        <c>#00000000</c>
+      </BarBorderColor>
+      <BarBorderWidth>2</BarBorderWidth>
+      <BarBackgroundBorderColor>
+        <c>#00ffffff</c>
+      </BarBackgroundBorderColor>
+      <chartRangeSettings>manually</chartRangeSettings>
+      <rangeMin>15</rangeMin>
+      <rangeMax>100</rangeMax>
+      <zoomMax>5</zoomMax>
+      <chartGrowRangeValue>false</chartGrowRangeValue>
+      <chartLineWidth>2</chartLineWidth>
+      <chartLineColor>
+        <c>#00000000</c>
+      </chartLineColor>
+      <colors>
+        <col>
+          <c>#ff87c878</c>
+        </col>
+        <position>50</position>
+      </colors>
+      <colors>
+        <col>
+          <c>#ffc8c83c</c>
+        </col>
+        <position>80</position>
+      </colors>
+      <colors>
+        <col>
+          <c>#ffc87878</c>
+        </col>
+        <position>90</position>
+      </colors>
+      <backgroundMode>User</backgroundMode>
+      <backgroundColor>
+        <c>#00000000</c>
+      </backgroundColor>
+      <gauge>
+        <IndicatorHeight>8</IndicatorHeight>
+        <ScaleColor>
+          <c>#ff000000</c>
+        </ScaleColor>
+        <Minimum>0</Minimum>
+        <Maximum>100</Maximum>
+        <NeedleColor>
+          <c>#ff8b0000</c>
+        </NeedleColor>
+        <ShowStatisticBar>true</ShowStatisticBar>
+        <StatisticColor>
+          <c>#ff6aafd0</c>
+        </StatisticColor>
+        <StatisticHeight>5</StatisticHeight>
+        <ScaleAngle>120</ScaleAngle>
+        <MajorTickStep>10</MajorTickStep>
+        <MinorTickStep>5</MinorTickStep>
+      </gauge>
+      <ChartAxisFont>
+        <size>12</size>
+        <w>Normal</w>
+        <st>Normal</st>
+        <f>Segoe UI</f>
+        <col>#ff000000</col>
+      </ChartAxisFont>
+      <ChartAxisColor>
+        <c>#00000000</c>
+      </ChartAxisColor>
+      <ChartShowXAxis>false</ChartShowXAxis>
+      <ChartShowXAxisLabels>false</ChartShowXAxisLabels>
+      <ChartShowYAxis>false</ChartShowYAxis>
+      <ChartShowYAxisLabels>false</ChartShowYAxisLabels>
+      <ChartValueGridColor>
+        <c>#00000000</c>
+      </ChartValueGridColor>
+    </SettingsBase>
+    <SettingsBase xsi:type="SettingsDataItem">
+      <_font>
+        <size>22</size>
+        <w>Normal</w>
+        <st>Normal</st>
+        <f>Segoe UI</f>
+        <col>#ffe8e8e8</col>
+      </_font>
+      <itemType>SensorData</itemType>
+      <X>725</X>
+      <Y>414</Y>
+      <Height>33</Height>
+      <Width>254</Width>
+      <ZOrder>4</ZOrder>
+      <Opacity>1</Opacity>
+      <SnapToGrid>false</SnapToGrid>
+      <GridSize>10</GridSize>
+      <font>
+        <size>22</size>
+        <w>Normal</w>
+        <st>Normal</st>
+        <f>Segoe UI</f>
+        <col>#ffe8e8e8</col>
+      </font>
+      <connection>service_data:1:data\sensor\hwinfo/dgpu_0_nvidia_geforce_rtx_5080_asus_rog_astral_geforce_rtx_5080_oc_ite_it8915fn/17/gpu_memory2_temperature/16777219</connection>
+      <ItemStyle>CHART</ItemStyle>
+      <TitleSource>manual</TitleSource>
+      <Title>GPU Memory2 Temperature</Title>
+      <TitleShow>false</TitleShow>
+      <backgroundOpacity>0</backgroundOpacity>
+      <logTimespan>10</logTimespan>
+      <numberPrecision>1</numberPrecision>
+      <showStatistic>false</showStatistic>
+      <statisticPosition>right</statisticPosition>
+      <fontStatistic>
+        <size>14</size>
+        <w>Normal</w>
+        <st>Normal</st>
+        <f>Segoe UI</f>
+        <col>#ffffffff</col>
+      </fontStatistic>
+      <BarOrientation>Horizontal</BarOrientation>
+      <barHeight>25</barHeight>
+      <showBarValue>true</showBarValue>
+      <ShowBarGrid>false</ShowBarGrid>
+      <BarStartValue>0</BarStartValue>
+      <BarEndValue>100</BarEndValue>
+      <BarBorderColor>
+        <c>#00000000</c>
+      </BarBorderColor>
+      <BarBorderWidth>2</BarBorderWidth>
+      <BarBackgroundBorderColor>
+        <c>#00ffffff</c>
+      </BarBackgroundBorderColor>
+      <chartRangeSettings>manually</chartRangeSettings>
+      <rangeMin>15</rangeMin>
+      <rangeMax>100</rangeMax>
+      <zoomMax>5</zoomMax>
+      <chartGrowRangeValue>false</chartGrowRangeValue>
+      <chartLineWidth>2</chartLineWidth>
+      <chartLineColor>
+        <c>#00000000</c>
+      </chartLineColor>
+      <colors>
+        <col>
+          <c>#ff87c879</c>
+        </col>
+        <position>50</position>
+      </colors>
+      <colors>
+        <col>
+          <c>#ffc8c83c</c>
+        </col>
+        <position>80</position>
+      </colors>
+      <colors>
+        <col>
+          <c>#ffc87878</c>
+        </col>
+        <position>90</position>
+      </colors>
+      <backgroundMode>User</backgroundMode>
+      <backgroundColor>
+        <c>#00000000</c>
+      </backgroundColor>
+      <gauge>
+        <IndicatorHeight>8</IndicatorHeight>
+        <ScaleColor>
+          <c>#ff000000</c>
+        </ScaleColor>
+        <Minimum>0</Minimum>
+        <Maximum>100</Maximum>
+        <NeedleColor>
+          <c>#ff8b0000</c>
+        </NeedleColor>
+        <ShowStatisticBar>true</ShowStatisticBar>
+        <StatisticColor>
+          <c>#ff6aafd0</c>
+        </StatisticColor>
+        <StatisticHeight>5</StatisticHeight>
+        <ScaleAngle>120</ScaleAngle>
+        <MajorTickStep>10</MajorTickStep>
+        <MinorTickStep>5</MinorTickStep>
+      </gauge>
+      <ChartAxisFont>
+        <size>12</size>
+        <w>Normal</w>
+        <st>Normal</st>
+        <f>Segoe UI</f>
+        <col>#ff000000</col>
+      </ChartAxisFont>
+      <ChartAxisColor>
+        <c>#00000000</c>
+      </ChartAxisColor>
+      <ChartShowXAxis>false</ChartShowXAxis>
+      <ChartShowXAxisLabels>false</ChartShowXAxisLabels>
+      <ChartShowYAxis>false</ChartShowYAxis>
+      <ChartShowYAxisLabels>false</ChartShowYAxisLabels>
+      <ChartValueGridColor>
+        <c>#00000000</c>
+      </ChartValueGridColor>
+    </SettingsBase>
+    <SettingsBase xsi:type="SettingsDataItem">
+      <_font>
+        <size>22</size>
+        <w>Normal</w>
+        <st>Normal</st>
+        <f>Segoe UI</f>
+        <col>#ffe8e8e8</col>
+      </_font>
+      <itemType>SensorData</itemType>
+      <X>725</X>
+      <Y>459</Y>
+      <Height>33</Height>
+      <Width>254</Width>
+      <ZOrder>4</ZOrder>
+      <Opacity>1</Opacity>
+      <SnapToGrid>false</SnapToGrid>
+      <GridSize>10</GridSize>
+      <font>
+        <size>22</size>
+        <w>Normal</w>
+        <st>Normal</st>
+        <f>Segoe UI</f>
+        <col>#ffe8e8e8</col>
+      </font>
+      <connection>service_data:1:data\sensor\hwinfo/dgpu_0_nvidia_geforce_rtx_5080_asus_rog_astral_geforce_rtx_5080_oc_ite_it8915fn/17/gpu_vrm2_temperature/16777220</connection>
+      <ItemStyle>CHART</ItemStyle>
+      <TitleSource>manual</TitleSource>
+      <Title>GPU VRM2 Temperature</Title>
+      <TitleShow>false</TitleShow>
+      <backgroundOpacity>0</backgroundOpacity>
+      <logTimespan>10</logTimespan>
+      <numberPrecision>1</numberPrecision>
+      <showStatistic>false</showStatistic>
+      <statisticPosition>right</statisticPosition>
+      <fontStatistic>
+        <size>14</size>
+        <w>Normal</w>
+        <st>Normal</st>
+        <f>Segoe UI</f>
+        <col>#ffffffff</col>
+      </fontStatistic>
+      <BarOrientation>Horizontal</BarOrientation>
+      <barHeight>25</barHeight>
+      <showBarValue>true</showBarValue>
+      <ShowBarGrid>false</ShowBarGrid>
+      <BarStartValue>0</BarStartValue>
+      <BarEndValue>100</BarEndValue>
+      <BarBorderColor>
+        <c>#00000000</c>
+      </BarBorderColor>
+      <BarBorderWidth>2</BarBorderWidth>
+      <BarBackgroundBorderColor>
+        <c>#00ffffff</c>
+      </BarBackgroundBorderColor>
+      <chartRangeSettings>manually</chartRangeSettings>
+      <rangeMin>15</rangeMin>
+      <rangeMax>100</rangeMax>
+      <zoomMax>5</zoomMax>
+      <chartGrowRangeValue>false</chartGrowRangeValue>
+      <chartLineWidth>2</chartLineWidth>
+      <chartLineColor>
+        <c>#00000000</c>
+      </chartLineColor>
+      <colors>
+        <col>
+          <c>#ff87c878</c>
+        </col>
+        <position>50</position>
+      </colors>
+      <colors>
+        <col>
+          <c>#ffc8c83c</c>
+        </col>
+        <position>80</position>
+      </colors>
+      <colors>
+        <col>
+          <c>#ffc87878</c>
+        </col>
+        <position>95</position>
+      </colors>
+      <backgroundMode>User</backgroundMode>
+      <backgroundColor>
+        <c>#00000000</c>
+      </backgroundColor>
+      <gauge>
+        <IndicatorHeight>8</IndicatorHeight>
+        <ScaleColor>
+          <c>#ff000000</c>
+        </ScaleColor>
+        <Minimum>0</Minimum>
+        <Maximum>100</Maximum>
+        <NeedleColor>
+          <c>#ff8b0000</c>
+        </NeedleColor>
+        <ShowStatisticBar>true</ShowStatisticBar>
+        <StatisticColor>
+          <c>#ff6aafd0</c>
+        </StatisticColor>
+        <StatisticHeight>5</StatisticHeight>
+        <ScaleAngle>120</ScaleAngle>
+        <MajorTickStep>10</MajorTickStep>
+        <MinorTickStep>5</MinorTickStep>
+      </gauge>
+      <ChartAxisFont>
+        <size>12</size>
+        <w>Normal</w>
+        <st>Normal</st>
+        <f>Segoe UI</f>
+        <col>#ff000000</col>
+      </ChartAxisFont>
+      <ChartAxisColor>
+        <c>#00000000</c>
+      </ChartAxisColor>
+      <ChartShowXAxis>false</ChartShowXAxis>
+      <ChartShowXAxisLabels>false</ChartShowXAxisLabels>
+      <ChartShowYAxis>false</ChartShowYAxis>
+      <ChartShowYAxisLabels>false</ChartShowYAxisLabels>
+      <ChartValueGridColor>
+        <c>#00000000</c>
+      </ChartValueGridColor>
+    </SettingsBase>
+    <SettingsBase xsi:type="SettingsDataItem">
+      <_font>
+        <size>22</size>
+        <w>Normal</w>
+        <st>Normal</st>
+        <f>Segoe UI</f>
+        <col>#ffe8e8e8</col>
+      </_font>
+      <itemType>SensorData</itemType>
+      <X>725</X>
+      <Y>504</Y>
+      <Height>33</Height>
+      <Width>254</Width>
+      <ZOrder>4</ZOrder>
+      <Opacity>1</Opacity>
+      <SnapToGrid>false</SnapToGrid>
+      <GridSize>10</GridSize>
+      <font>
+        <size>22</size>
+        <w>Normal</w>
+        <st>Normal</st>
+        <f>Segoe UI</f>
+        <col>#ffe8e8e8</col>
+      </font>
+      <connection>service_data:1:data\sensor\hwinfo/dgpu_0_nvidia_geforce_rtx_5080_asus_rog_astral_geforce_rtx_5080_oc_ite_it8915fn/17/gpu_board_temperature_6/16777221</connection>
+      <ItemStyle>CHART</ItemStyle>
+      <TitleSource>manual</TitleSource>
+      <Title>GPU Board Temperature 6</Title>
+      <TitleShow>false</TitleShow>
+      <backgroundOpacity>0</backgroundOpacity>
+      <logTimespan>10</logTimespan>
+      <numberPrecision>1</numberPrecision>
+      <showStatistic>false</showStatistic>
+      <statisticPosition>right</statisticPosition>
+      <fontStatistic>
+        <size>14</size>
+        <w>Normal</w>
+        <st>Normal</st>
+        <f>Segoe UI</f>
+        <col>#ffffffff</col>
+      </fontStatistic>
+      <BarOrientation>Horizontal</BarOrientation>
+      <barHeight>25</barHeight>
+      <showBarValue>true</showBarValue>
+      <ShowBarGrid>false</ShowBarGrid>
+      <BarStartValue>0</BarStartValue>
+      <BarEndValue>100</BarEndValue>
+      <BarBorderColor>
+        <c>#00000000</c>
+      </BarBorderColor>
+      <BarBorderWidth>2</BarBorderWidth>
+      <BarBackgroundBorderColor>
+        <c>#00ffffff</c>
+      </BarBackgroundBorderColor>
+      <chartRangeSettings>manually</chartRangeSettings>
+      <rangeMin>15</rangeMin>
+      <rangeMax>100</rangeMax>
+      <zoomMax>5</zoomMax>
+      <chartGrowRangeValue>false</chartGrowRangeValue>
+      <chartLineWidth>2</chartLineWidth>
+      <chartLineColor>
+        <c>#00000000</c>
+      </chartLineColor>
+      <colors>
+        <col>
+          <c>#ff87c878</c>
+        </col>
+        <position>50</position>
+      </colors>
+      <colors>
+        <col>
+          <c>#ffc8c83c</c>
+        </col>
+        <position>70</position>
+      </colors>
+      <colors>
+        <col>
+          <c>#ffc87878</c>
+        </col>
+        <position>85</position>
+      </colors>
+      <backgroundMode>User</backgroundMode>
+      <backgroundColor>
+        <c>#00000000</c>
+      </backgroundColor>
+      <gauge>
+        <IndicatorHeight>8</IndicatorHeight>
+        <ScaleColor>
+          <c>#ff000000</c>
+        </ScaleColor>
+        <Minimum>0</Minimum>
+        <Maximum>100</Maximum>
+        <NeedleColor>
+          <c>#ff8b0000</c>
+        </NeedleColor>
+        <ShowStatisticBar>true</ShowStatisticBar>
+        <StatisticColor>
+          <c>#ff6aafd0</c>
+        </StatisticColor>
+        <StatisticHeight>5</StatisticHeight>
+        <ScaleAngle>120</ScaleAngle>
+        <MajorTickStep>10</MajorTickStep>
+        <MinorTickStep>5</MinorTickStep>
+      </gauge>
+      <ChartAxisFont>
+        <size>12</size>
+        <w>Normal</w>
+        <st>Normal</st>
+        <f>Segoe UI</f>
+        <col>#ff000000</col>
+      </ChartAxisFont>
+      <ChartAxisColor>
+        <c>#00000000</c>
+      </ChartAxisColor>
+      <ChartShowXAxis>false</ChartShowXAxis>
+      <ChartShowXAxisLabels>false</ChartShowXAxisLabels>
+      <ChartShowYAxis>false</ChartShowYAxis>
+      <ChartShowYAxisLabels>false</ChartShowYAxisLabels>
+      <ChartValueGridColor>
+        <c>#00000000</c>
+      </ChartValueGridColor>
+    </SettingsBase>
+    <SettingsBase xsi:type="SettingsXamlItem">
+      <_font>
+        <size>22</size>
+        <w>Normal</w>
+        <st>Normal</st>
+        <f>Segoe UI</f>
+        <col>#ff000000</col>
+      </_font>
+      <itemType>XamlControl</itemType>
+      <X>1043</X>
+      <Y>278</Y>
+      <Height>101</Height>
+      <Width>500</Width>
+      <ZOrder>4</ZOrder>
+      <Opacity>1</Opacity>
+      <SnapToGrid>false</SnapToGrid>
+      <GridSize>10</GridSize>
+      <font>
+        <size>22</size>
+        <w>Normal</w>
+        <st>Normal</st>
+        <f>Segoe UI</f>
+        <col>#ff000000</col>
+      </font>
+      <connection>service_data:1:data\sensor\hwinfo/dgpu_0_nvidia_geforce_rtx_5080_asus_rog_astral_geforce_rtx_5080_oc_ite_it8915fn/17/gpu_12vhpwr_connector_total_power/83886086</connection>
+      <xamlCode>&lt;UserControl xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:d="http://schemas.microsoft.com/expression/blend/2008" xmlns:sys="clr-namespace:System;assembly=mscorlib" x:Name="this" mc:Ignorable="d" d:DesignWidth="400" d:DesignHeight="200"&gt;&lt;Grid Background="Transparent"&gt;
+    &lt;StackPanel Orientation="Horizontal" HorizontalAlignment="Left" VerticalAlignment="Center"&gt;
+      &lt;TextBlock FontFamily="Segoe UI" FontSize="79" FontWeight="Bold" Foreground="#E8E8E8" Text="{Binding ElementName=this, Path=DataContext.Value, StringFormat={}{0:F2}, FallbackValue=—}"/&gt;
+      &lt;TextBlock FontFamily="Segoe UI" FontSize="33" Foreground="#C3C3C3" Text=" W" Margin="8,37,0,0"/&gt;
+    &lt;/StackPanel&gt;&lt;/Grid&gt;&lt;/UserControl&gt;</xamlCode>
+    </SettingsBase>
+    <SettingsBase xsi:type="SettingsDataItem">
+      <_font>
+        <size>22</size>
+        <w>Normal</w>
+        <st>Normal</st>
+        <f>Segoe UI</f>
+        <col>#ffe8e8e8</col>
+      </_font>
+      <itemType>SensorData</itemType>
+      <X>1052</X>
+      <Y>401</Y>
+      <Height>201</Height>
+      <Width>488</Width>
+      <ZOrder>4</ZOrder>
+      <Opacity>1</Opacity>
+      <SnapToGrid>false</SnapToGrid>
+      <GridSize>10</GridSize>
+      <font>
+        <size>22</size>
+        <w>Normal</w>
+        <st>Normal</st>
+        <f>Segoe UI</f>
+        <col>#ffe8e8e8</col>
+      </font>
+      <connection>service_data:1:data\sensor\hwinfo/dgpu_0_nvidia_geforce_rtx_5080_asus_rog_astral_geforce_rtx_5080_oc_ite_it8915fn/17/gpu_12vhpwr_connector_total_power/83886086</connection>
+      <ItemStyle>CHART</ItemStyle>
+      <TitleSource>manual</TitleSource>
+      <Title>GPU 12VHPWR Connector Total Power</Title>
+      <TitleShow>false</TitleShow>
+      <backgroundOpacity>0</backgroundOpacity>
+      <logTimespan>60</logTimespan>
+      <numberPrecision>1</numberPrecision>
+      <showStatistic>false</showStatistic>
+      <statisticPosition>right</statisticPosition>
+      <fontStatistic>
+        <size>14</size>
+        <w>Normal</w>
+        <st>Normal</st>
+        <f>Segoe UI</f>
+        <col>#ffffffff</col>
+      </fontStatistic>
+      <BarOrientation>Horizontal</BarOrientation>
+      <barHeight>25</barHeight>
+      <showBarValue>true</showBarValue>
+      <ShowBarGrid>false</ShowBarGrid>
+      <BarStartValue>0</BarStartValue>
+      <BarEndValue>100</BarEndValue>
+      <BarBorderColor>
+        <c>#00000000</c>
+      </BarBorderColor>
+      <BarBorderWidth>2</BarBorderWidth>
+      <BarBackgroundBorderColor>
+        <c>#00ffffff</c>
+      </BarBackgroundBorderColor>
+      <chartRangeSettings>manually</chartRangeSettings>
+      <rangeMin>0</rangeMin>
+      <rangeMax>600</rangeMax>
+      <zoomMax>5</zoomMax>
+      <chartGrowRangeValue>false</chartGrowRangeValue>
+      <chartLineWidth>2</chartLineWidth>
+      <chartLineColor>
+        <c>#00000000</c>
+      </chartLineColor>
+      <colors>
+        <col>
+          <c>#FF6AAFD0</c>
+        </col>
+        <position>50</position>
+      </colors>
+      <colors>
+        <col>
+          <c>#FF6AAFD0</c>
+        </col>
+        <position>70</position>
+      </colors>
+      <colors>
+        <col>
+          <c>#FF6AAFD0</c>
+        </col>
+        <position>100</position>
+      </colors>
+      <backgroundMode>User</backgroundMode>
+      <backgroundColor>
+        <c>#00000000</c>
+      </backgroundColor>
+      <gauge>
+        <IndicatorHeight>8</IndicatorHeight>
+        <ScaleColor>
+          <c>#ff000000</c>
+        </ScaleColor>
+        <Minimum>0</Minimum>
+        <Maximum>100</Maximum>
+        <NeedleColor>
+          <c>#ff8b0000</c>
+        </NeedleColor>
+        <ShowStatisticBar>true</ShowStatisticBar>
+        <StatisticColor>
+          <c>#ff6aafd0</c>
+        </StatisticColor>
+        <StatisticHeight>5</StatisticHeight>
+        <ScaleAngle>120</ScaleAngle>
+        <MajorTickStep>10</MajorTickStep>
+        <MinorTickStep>5</MinorTickStep>
+      </gauge>
+      <ChartAxisFont>
+        <size>12</size>
+        <w>Normal</w>
+        <st>Normal</st>
+        <f>Segoe UI</f>
+        <col>#ff000000</col>
+      </ChartAxisFont>
+      <ChartAxisColor>
+        <c>#00000000</c>
+      </ChartAxisColor>
+      <ChartShowXAxis>false</ChartShowXAxis>
+      <ChartShowXAxisLabels>false</ChartShowXAxisLabels>
+      <ChartShowYAxis>false</ChartShowYAxis>
+      <ChartShowYAxisLabels>false</ChartShowYAxisLabels>
+      <ChartValueGridColor>
+        <c>#00000000</c>
+      </ChartValueGridColor>
+    </SettingsBase>
+    <SettingsBase xsi:type="SettingsXamlItem">
+      <_font>
+        <size>22</size>
+        <w>Normal</w>
+        <st>Normal</st>
+        <f>Segoe UI</f>
+        <col>#ff000000</col>
+      </_font>
+      <itemType>XamlControl</itemType>
+      <X>57</X>
+      <Y>1003</Y>
+      <Height>31</Height>
+      <Width>132</Width>
+      <ZOrder>4</ZOrder>
+      <Opacity>1</Opacity>
+      <SnapToGrid>false</SnapToGrid>
+      <GridSize>10</GridSize>
+      <font>
+        <size>22</size>
+        <w>Normal</w>
+        <st>Normal</st>
+        <f>Segoe UI</f>
+        <col>#ff000000</col>
+      </font>
+      <connection>service_data:1:data\sensor\hwinfo/dgpu_0_nvidia_geforce_rtx_5080_asus_rog_astral_geforce_rtx_5080_oc_ite_it8915fn/17/gpu_12vhpwr_pin1_voltage/33554432</connection>
+      <xamlCode>&lt;UserControl xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:d="http://schemas.microsoft.com/expression/blend/2008" x:Name="this" mc:Ignorable="d"&gt;&lt;Grid Background="Transparent"&gt;&lt;TextBlock VerticalAlignment="Center" TextAlignment="Center" FontFamily="Segoe UI" FontSize="17" Foreground="#C3C3C3" Text="{Binding ElementName=this, Path=DataContext.Value, StringFormat={}{0:F3} V, FallbackValue=—}"/&gt;&lt;/Grid&gt;&lt;/UserControl&gt;</xamlCode>
+    </SettingsBase>
+    <SettingsBase xsi:type="SettingsXamlItem">
+      <_font>
+        <size>22</size>
+        <w>Normal</w>
+        <st>Normal</st>
+        <f>Segoe UI</f>
+        <col>#ff000000</col>
+      </_font>
+      <itemType>XamlControl</itemType>
+      <X>52</X>
+      <Y>799</Y>
+      <Height>184</Height>
+      <Width>142</Width>
+      <ZOrder>4</ZOrder>
+      <Opacity>1</Opacity>
+      <SnapToGrid>false</SnapToGrid>
+      <GridSize>10</GridSize>
+      <font>
+        <size>22</size>
+        <w>Normal</w>
+        <st>Normal</st>
+        <f>Segoe UI</f>
+        <col>#ff000000</col>
+      </font>
+      <connection>service_data:1:data\sensor\hwinfo/dgpu_0_nvidia_geforce_rtx_5080_asus_rog_astral_geforce_rtx_5080_oc_ite_it8915fn/17/gpu_12vhpwr_pin1_current/67108864</connection>
+      <xamlCode>&lt;UserControl
+   xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+   xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+   xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+   xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+   x:Name="this"
+   mc:Ignorable="d"
+   d:DesignWidth="142"
+   d:DesignHeight="184"&gt;
+   &lt;Grid
+      Background="Transparent"&gt;
+      &lt;Canvas
+         Width="142"
+         Height="184"&gt;
+         &lt;ProgressBar
+    Canvas.Left="47"
+    Canvas.Top="3"
+    Width="48"
+    Height="120"
+    Orientation="Vertical"
+    Minimum="0"
+    Maximum="15"
+    Value="{Binding ElementName=this, Path=DataContext.Value, FallbackValue=0}"&gt;
+
+    &lt;ProgressBar.Template&gt;
+        &lt;ControlTemplate TargetType="{x:Type ProgressBar}"&gt;
+            &lt;Grid x:Name="Root" ClipToBounds="True"&gt;
+                &lt;Border
+                    x:Name="PART_Track"
+                    Background="#272727"
+                    BorderBrush="#5C5C5C"
+                    BorderThickness="1"
+                    CornerRadius="5" /&gt;
+
+                &lt;Border
+                    x:Name="PART_Indicator"
+                    Background="#6AAFD0"
+                    CornerRadius="4"
+                    HorizontalAlignment="Left" /&gt;
+            &lt;/Grid&gt;
+
+            &lt;ControlTemplate.Triggers&gt;
+                &lt;Trigger Property="Orientation" Value="Vertical"&gt;
+                    &lt;Setter TargetName="Root" Property="LayoutTransform"&gt;
+                        &lt;Setter.Value&gt;
+                            &lt;RotateTransform Angle="270" /&gt;
+                        &lt;/Setter.Value&gt;
+                    &lt;/Setter&gt;
+                    &lt;Setter TargetName="Root" Property="Width"
+                            Value="{Binding RelativeSource={RelativeSource TemplatedParent}, Path=Height}" /&gt;
+                    &lt;Setter TargetName="Root" Property="Height"
+                            Value="{Binding RelativeSource={RelativeSource TemplatedParent}, Path=Width}" /&gt;
+                &lt;/Trigger&gt;
+            &lt;/ControlTemplate.Triggers&gt;
+        &lt;/ControlTemplate&gt;
+    &lt;/ProgressBar.Template&gt;
+&lt;/ProgressBar&gt;
+         &lt;TextBlock
+            Canvas.Left="0"
+            Canvas.Top="151"
+            Width="142"
+            TextAlignment="Center"
+            FontFamily="Segoe UI"
+            FontSize="20"
+            FontWeight="SemiBold"
+            Foreground="#E8E8E8"
+            Text="{Binding ElementName=this, Path=DataContext.Value, StringFormat={}{0:F2} A, FallbackValue=—}" /&gt;
+      &lt;/Canvas&gt;
+   &lt;/Grid&gt;
+&lt;/UserControl&gt;</xamlCode>
+    </SettingsBase>
+    <SettingsBase xsi:type="SettingsXamlItem">
+      <_font>
+        <size>22</size>
+        <w>Normal</w>
+        <st>Normal</st>
+        <f>Segoe UI</f>
+        <col>#ff000000</col>
+      </_font>
+      <itemType>XamlControl</itemType>
+      <X>57</X>
+      <Y>1050</Y>
+      <Height>31</Height>
+      <Width>132</Width>
+      <ZOrder>4</ZOrder>
+      <Opacity>1</Opacity>
+      <SnapToGrid>false</SnapToGrid>
+      <GridSize>10</GridSize>
+      <font>
+        <size>22</size>
+        <w>Normal</w>
+        <st>Normal</st>
+        <f>Segoe UI</f>
+        <col>#ff000000</col>
+      </font>
+      <connection>service_data:1:data\sensor\hwinfo/dgpu_0_nvidia_geforce_rtx_5080_asus_rog_astral_geforce_rtx_5080_oc_ite_it8915fn/17/gpu_12vhpwr_pin1_power/83886080</connection>
+      <xamlCode>&lt;UserControl xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:d="http://schemas.microsoft.com/expression/blend/2008" x:Name="this" mc:Ignorable="d"&gt;&lt;Grid Background="Transparent"&gt;&lt;TextBlock VerticalAlignment="Center" TextAlignment="Center" FontFamily="Segoe UI" FontSize="17" Foreground="#E8E8E8" Text="{Binding ElementName=this, Path=DataContext.Value, StringFormat={}{0:F2} W, FallbackValue=—}"/&gt;&lt;/Grid&gt;&lt;/UserControl&gt;</xamlCode>
+    </SettingsBase>
+    <SettingsBase xsi:type="SettingsXamlItem">
+      <_font>
+        <size>22</size>
+        <w>Normal</w>
+        <st>Normal</st>
+        <f>Segoe UI</f>
+        <col>#ff000000</col>
+      </_font>
+      <itemType>XamlControl</itemType>
+      <X>213</X>
+      <Y>1003</Y>
+      <Height>31</Height>
+      <Width>132</Width>
+      <ZOrder>4</ZOrder>
+      <Opacity>1</Opacity>
+      <SnapToGrid>false</SnapToGrid>
+      <GridSize>10</GridSize>
+      <font>
+        <size>22</size>
+        <w>Normal</w>
+        <st>Normal</st>
+        <f>Segoe UI</f>
+        <col>#ff000000</col>
+      </font>
+      <connection>service_data:1:data\sensor\hwinfo/dgpu_0_nvidia_geforce_rtx_5080_asus_rog_astral_geforce_rtx_5080_oc_ite_it8915fn/17/gpu_12vhpwr_pin2_voltage/33554433</connection>
+      <xamlCode>&lt;UserControl xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:d="http://schemas.microsoft.com/expression/blend/2008" x:Name="this" mc:Ignorable="d"&gt;&lt;Grid Background="Transparent"&gt;&lt;TextBlock VerticalAlignment="Center" TextAlignment="Center" FontFamily="Segoe UI" FontSize="17" Foreground="#C3C3C3" Text="{Binding ElementName=this, Path=DataContext.Value, StringFormat={}{0:F3} V, FallbackValue=—}"/&gt;&lt;/Grid&gt;&lt;/UserControl&gt;</xamlCode>
+    </SettingsBase>
+    <SettingsBase xsi:type="SettingsXamlItem">
+      <_font>
+        <size>22</size>
+        <w>Normal</w>
+        <st>Normal</st>
+        <f>Segoe UI</f>
+        <col>#ff000000</col>
+      </_font>
+      <itemType>XamlControl</itemType>
+      <X>208</X>
+      <Y>799</Y>
+      <Height>184</Height>
+      <Width>142</Width>
+      <ZOrder>4</ZOrder>
+      <Opacity>1</Opacity>
+      <SnapToGrid>false</SnapToGrid>
+      <GridSize>10</GridSize>
+      <font>
+        <size>22</size>
+        <w>Normal</w>
+        <st>Normal</st>
+        <f>Segoe UI</f>
+        <col>#ff000000</col>
+      </font>
+      <connection>service_data:1:data\sensor\hwinfo/dgpu_0_nvidia_geforce_rtx_5080_asus_rog_astral_geforce_rtx_5080_oc_ite_it8915fn/17/gpu_12vhpwr_pin2_current/67108865</connection>
+      <xamlCode>&lt;UserControl
+   xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+   xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+   xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+   xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+   x:Name="this"
+   mc:Ignorable="d"
+   d:DesignWidth="142"
+   d:DesignHeight="184"&gt;
+   &lt;Grid
+      Background="Transparent"&gt;
+      &lt;Canvas
+         Width="142"
+         Height="184"&gt;
+         
+&lt;ProgressBar
+    Canvas.Left="47"
+    Canvas.Top="3"
+    Width="48"
+    Height="120"
+    Orientation="Vertical"
+    Minimum="0"
+    Maximum="15"
+    Value="{Binding ElementName=this, Path=DataContext.Value, FallbackValue=0}"&gt;
+
+    &lt;ProgressBar.Template&gt;
+        &lt;ControlTemplate TargetType="{x:Type ProgressBar}"&gt;
+            &lt;Grid x:Name="Root" ClipToBounds="True"&gt;
+                &lt;Border
+                    x:Name="PART_Track"
+                    Background="#272727"
+                    BorderBrush="#5C5C5C"
+                    BorderThickness="1"
+                    CornerRadius="5" /&gt;
+
+                &lt;Border
+                    x:Name="PART_Indicator"
+                    Background="#6AAFD0"
+                    CornerRadius="4"
+                    HorizontalAlignment="Left" /&gt;
+            &lt;/Grid&gt;
+
+            &lt;ControlTemplate.Triggers&gt;
+                &lt;Trigger Property="Orientation" Value="Vertical"&gt;
+                    &lt;Setter TargetName="Root" Property="LayoutTransform"&gt;
+                        &lt;Setter.Value&gt;
+                            &lt;RotateTransform Angle="270" /&gt;
+                        &lt;/Setter.Value&gt;
+                    &lt;/Setter&gt;
+                    &lt;Setter TargetName="Root" Property="Width"
+                            Value="{Binding RelativeSource={RelativeSource TemplatedParent}, Path=Height}" /&gt;
+                    &lt;Setter TargetName="Root" Property="Height"
+                            Value="{Binding RelativeSource={RelativeSource TemplatedParent}, Path=Width}" /&gt;
+                &lt;/Trigger&gt;
+            &lt;/ControlTemplate.Triggers&gt;
+        &lt;/ControlTemplate&gt;
+    &lt;/ProgressBar.Template&gt;
+&lt;/ProgressBar&gt;
+
+         &lt;TextBlock
+            Canvas.Left="0"
+            Canvas.Top="151"
+            Width="142"
+            TextAlignment="Center"
+            FontFamily="Segoe UI"
+            FontSize="20"
+            FontWeight="SemiBold"
+            Foreground="#E8E8E8"
+            Text="{Binding ElementName=this, Path=DataContext.Value, StringFormat={}{0:F2} A, FallbackValue=—}" /&gt;
+      &lt;/Canvas&gt;
+   &lt;/Grid&gt;
+&lt;/UserControl&gt;</xamlCode>
+    </SettingsBase>
+    <SettingsBase xsi:type="SettingsXamlItem">
+      <_font>
+        <size>22</size>
+        <w>Normal</w>
+        <st>Normal</st>
+        <f>Segoe UI</f>
+        <col>#ff000000</col>
+      </_font>
+      <itemType>XamlControl</itemType>
+      <X>213</X>
+      <Y>1050</Y>
+      <Height>31</Height>
+      <Width>132</Width>
+      <ZOrder>4</ZOrder>
+      <Opacity>1</Opacity>
+      <SnapToGrid>false</SnapToGrid>
+      <GridSize>10</GridSize>
+      <font>
+        <size>22</size>
+        <w>Normal</w>
+        <st>Normal</st>
+        <f>Segoe UI</f>
+        <col>#ff000000</col>
+      </font>
+      <connection>service_data:1:data\sensor\hwinfo/dgpu_0_nvidia_geforce_rtx_5080_asus_rog_astral_geforce_rtx_5080_oc_ite_it8915fn/17/gpu_12vhpwr_pin2_power/83886081</connection>
+      <xamlCode>&lt;UserControl xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:d="http://schemas.microsoft.com/expression/blend/2008" x:Name="this" mc:Ignorable="d"&gt;&lt;Grid Background="Transparent"&gt;&lt;TextBlock VerticalAlignment="Center" TextAlignment="Center" FontFamily="Segoe UI" FontSize="17" Foreground="#E8E8E8" Text="{Binding ElementName=this, Path=DataContext.Value, StringFormat={}{0:F2} W, FallbackValue=—}"/&gt;&lt;/Grid&gt;&lt;/UserControl&gt;</xamlCode>
+    </SettingsBase>
+    <SettingsBase xsi:type="SettingsXamlItem">
+      <_font>
+        <size>22</size>
+        <w>Normal</w>
+        <st>Normal</st>
+        <f>Segoe UI</f>
+        <col>#ff000000</col>
+      </_font>
+      <itemType>XamlControl</itemType>
+      <X>369</X>
+      <Y>1002</Y>
+      <Height>31</Height>
+      <Width>132</Width>
+      <ZOrder>4</ZOrder>
+      <Opacity>1</Opacity>
+      <SnapToGrid>false</SnapToGrid>
+      <GridSize>10</GridSize>
+      <font>
+        <size>22</size>
+        <w>Normal</w>
+        <st>Normal</st>
+        <f>Segoe UI</f>
+        <col>#ff000000</col>
+      </font>
+      <connection>service_data:1:data\sensor\hwinfo/dgpu_0_nvidia_geforce_rtx_5080_asus_rog_astral_geforce_rtx_5080_oc_ite_it8915fn/17/gpu_12vhpwr_pin3_voltage/33554434</connection>
+      <xamlCode>&lt;UserControl xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:d="http://schemas.microsoft.com/expression/blend/2008" x:Name="this" mc:Ignorable="d"&gt;&lt;Grid Background="Transparent"&gt;&lt;TextBlock VerticalAlignment="Center" TextAlignment="Center" FontFamily="Segoe UI" FontSize="17" Foreground="#C3C3C3" Text="{Binding ElementName=this, Path=DataContext.Value, StringFormat={}{0:F3} V, FallbackValue=—}"/&gt;&lt;/Grid&gt;&lt;/UserControl&gt;</xamlCode>
+    </SettingsBase>
+    <SettingsBase xsi:type="SettingsXamlItem">
+      <_font>
+        <size>22</size>
+        <w>Normal</w>
+        <st>Normal</st>
+        <f>Segoe UI</f>
+        <col>#ff000000</col>
+      </_font>
+      <itemType>XamlControl</itemType>
+      <X>364</X>
+      <Y>799</Y>
+      <Height>184</Height>
+      <Width>142</Width>
+      <ZOrder>4</ZOrder>
+      <Opacity>1</Opacity>
+      <SnapToGrid>false</SnapToGrid>
+      <GridSize>10</GridSize>
+      <font>
+        <size>22</size>
+        <w>Normal</w>
+        <st>Normal</st>
+        <f>Segoe UI</f>
+        <col>#ff000000</col>
+      </font>
+      <connection>service_data:1:data\sensor\hwinfo/dgpu_0_nvidia_geforce_rtx_5080_asus_rog_astral_geforce_rtx_5080_oc_ite_it8915fn/17/gpu_12vhpwr_pin3_current/67108866</connection>
+      <xamlCode>&lt;UserControl
+   xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+   xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+   xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+   xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+   x:Name="this"
+   mc:Ignorable="d"
+   d:DesignWidth="142"
+   d:DesignHeight="184"&gt;
+   &lt;Grid
+      Background="Transparent"&gt;
+      &lt;Canvas
+         Width="142"
+         Height="184"&gt;
+         
+&lt;ProgressBar
+    Canvas.Left="47"
+    Canvas.Top="3"
+    Width="48"
+    Height="120"
+    Orientation="Vertical"
+    Minimum="0"
+    Maximum="15"
+    Value="{Binding ElementName=this, Path=DataContext.Value, FallbackValue=0}"&gt;
+
+    &lt;ProgressBar.Template&gt;
+        &lt;ControlTemplate TargetType="{x:Type ProgressBar}"&gt;
+            &lt;Grid x:Name="Root" ClipToBounds="True"&gt;
+                &lt;Border
+                    x:Name="PART_Track"
+                    Background="#272727"
+                    BorderBrush="#5C5C5C"
+                    BorderThickness="1"
+                    CornerRadius="5" /&gt;
+
+                &lt;Border
+                    x:Name="PART_Indicator"
+                    Background="#6AAFD0"
+                    CornerRadius="4"
+                    HorizontalAlignment="Left" /&gt;
+            &lt;/Grid&gt;
+
+            &lt;ControlTemplate.Triggers&gt;
+                &lt;Trigger Property="Orientation" Value="Vertical"&gt;
+                    &lt;Setter TargetName="Root" Property="LayoutTransform"&gt;
+                        &lt;Setter.Value&gt;
+                            &lt;RotateTransform Angle="270" /&gt;
+                        &lt;/Setter.Value&gt;
+                    &lt;/Setter&gt;
+                    &lt;Setter TargetName="Root" Property="Width"
+                            Value="{Binding RelativeSource={RelativeSource TemplatedParent}, Path=Height}" /&gt;
+                    &lt;Setter TargetName="Root" Property="Height"
+                            Value="{Binding RelativeSource={RelativeSource TemplatedParent}, Path=Width}" /&gt;
+                &lt;/Trigger&gt;
+            &lt;/ControlTemplate.Triggers&gt;
+        &lt;/ControlTemplate&gt;
+    &lt;/ProgressBar.Template&gt;
+&lt;/ProgressBar&gt;
+
+         &lt;TextBlock
+            Canvas.Left="0"
+            Canvas.Top="151"
+            Width="142"
+            TextAlignment="Center"
+            FontFamily="Segoe UI"
+            FontSize="20"
+            FontWeight="SemiBold"
+            Foreground="#E8E8E8"
+            Text="{Binding ElementName=this, Path=DataContext.Value, StringFormat={}{0:F2} A, FallbackValue=—}" /&gt;
+      &lt;/Canvas&gt;
+   &lt;/Grid&gt;
+&lt;/UserControl&gt;</xamlCode>
+    </SettingsBase>
+    <SettingsBase xsi:type="SettingsXamlItem">
+      <_font>
+        <size>22</size>
+        <w>Normal</w>
+        <st>Normal</st>
+        <f>Segoe UI</f>
+        <col>#ff000000</col>
+      </_font>
+      <itemType>XamlControl</itemType>
+      <X>369</X>
+      <Y>1050</Y>
+      <Height>31</Height>
+      <Width>132</Width>
+      <ZOrder>4</ZOrder>
+      <Opacity>1</Opacity>
+      <SnapToGrid>false</SnapToGrid>
+      <GridSize>10</GridSize>
+      <font>
+        <size>22</size>
+        <w>Normal</w>
+        <st>Normal</st>
+        <f>Segoe UI</f>
+        <col>#ff000000</col>
+      </font>
+      <connection>service_data:1:data\sensor\hwinfo/dgpu_0_nvidia_geforce_rtx_5080_asus_rog_astral_geforce_rtx_5080_oc_ite_it8915fn/17/gpu_12vhpwr_pin3_power/83886082</connection>
+      <xamlCode>&lt;UserControl xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:d="http://schemas.microsoft.com/expression/blend/2008" x:Name="this" mc:Ignorable="d"&gt;&lt;Grid Background="Transparent"&gt;&lt;TextBlock VerticalAlignment="Center" TextAlignment="Center" FontFamily="Segoe UI" FontSize="17" Foreground="#E8E8E8" Text="{Binding ElementName=this, Path=DataContext.Value, StringFormat={}{0:F2} W, FallbackValue=—}"/&gt;&lt;/Grid&gt;&lt;/UserControl&gt;</xamlCode>
+    </SettingsBase>
+    <SettingsBase xsi:type="SettingsXamlItem">
+      <_font>
+        <size>22</size>
+        <w>Normal</w>
+        <st>Normal</st>
+        <f>Segoe UI</f>
+        <col>#ff000000</col>
+      </_font>
+      <itemType>XamlControl</itemType>
+      <X>525</X>
+      <Y>1003</Y>
+      <Height>31</Height>
+      <Width>132</Width>
+      <ZOrder>4</ZOrder>
+      <Opacity>1</Opacity>
+      <SnapToGrid>false</SnapToGrid>
+      <GridSize>10</GridSize>
+      <font>
+        <size>22</size>
+        <w>Normal</w>
+        <st>Normal</st>
+        <f>Segoe UI</f>
+        <col>#ff000000</col>
+      </font>
+      <connection>service_data:1:data\sensor\hwinfo/dgpu_0_nvidia_geforce_rtx_5080_asus_rog_astral_geforce_rtx_5080_oc_ite_it8915fn/17/gpu_12vhpwr_pin4_voltage/33554435</connection>
+      <xamlCode>&lt;UserControl xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:d="http://schemas.microsoft.com/expression/blend/2008" x:Name="this" mc:Ignorable="d"&gt;&lt;Grid Background="Transparent"&gt;&lt;TextBlock VerticalAlignment="Center" TextAlignment="Center" FontFamily="Segoe UI" FontSize="17" Foreground="#C3C3C3" Text="{Binding ElementName=this, Path=DataContext.Value, StringFormat={}{0:F3} V, FallbackValue=—}"/&gt;&lt;/Grid&gt;&lt;/UserControl&gt;</xamlCode>
+    </SettingsBase>
+    <SettingsBase xsi:type="SettingsXamlItem">
+      <_font>
+        <size>22</size>
+        <w>Normal</w>
+        <st>Normal</st>
+        <f>Segoe UI</f>
+        <col>#ff000000</col>
+      </_font>
+      <itemType>XamlControl</itemType>
+      <X>520</X>
+      <Y>799</Y>
+      <Height>184</Height>
+      <Width>142</Width>
+      <ZOrder>4</ZOrder>
+      <Opacity>1</Opacity>
+      <SnapToGrid>false</SnapToGrid>
+      <GridSize>10</GridSize>
+      <font>
+        <size>22</size>
+        <w>Normal</w>
+        <st>Normal</st>
+        <f>Segoe UI</f>
+        <col>#ff000000</col>
+      </font>
+      <connection>service_data:1:data\sensor\hwinfo/dgpu_0_nvidia_geforce_rtx_5080_asus_rog_astral_geforce_rtx_5080_oc_ite_it8915fn/17/gpu_12vhpwr_pin4_current/67108867</connection>
+      <xamlCode>&lt;UserControl
+   xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+   xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+   xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+   xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+   x:Name="this"
+   mc:Ignorable="d"
+   d:DesignWidth="142"
+   d:DesignHeight="184"&gt;
+   &lt;Grid
+      Background="Transparent"&gt;
+      &lt;Canvas
+         Width="142"
+         Height="184"&gt;
+         
+&lt;ProgressBar
+    Canvas.Left="47"
+    Canvas.Top="3"
+    Width="48"
+    Height="120"
+    Orientation="Vertical"
+    Minimum="0"
+    Maximum="15"
+    Value="{Binding ElementName=this, Path=DataContext.Value, FallbackValue=0}"&gt;
+
+    &lt;ProgressBar.Template&gt;
+        &lt;ControlTemplate TargetType="{x:Type ProgressBar}"&gt;
+            &lt;Grid x:Name="Root" ClipToBounds="True"&gt;
+                &lt;Border
+                    x:Name="PART_Track"
+                    Background="#272727"
+                    BorderBrush="#5C5C5C"
+                    BorderThickness="1"
+                    CornerRadius="5" /&gt;
+
+                &lt;Border
+                    x:Name="PART_Indicator"
+                    Background="#6AAFD0"
+                    CornerRadius="4"
+                    HorizontalAlignment="Left" /&gt;
+            &lt;/Grid&gt;
+
+            &lt;ControlTemplate.Triggers&gt;
+                &lt;Trigger Property="Orientation" Value="Vertical"&gt;
+                    &lt;Setter TargetName="Root" Property="LayoutTransform"&gt;
+                        &lt;Setter.Value&gt;
+                            &lt;RotateTransform Angle="270" /&gt;
+                        &lt;/Setter.Value&gt;
+                    &lt;/Setter&gt;
+                    &lt;Setter TargetName="Root" Property="Width"
+                            Value="{Binding RelativeSource={RelativeSource TemplatedParent}, Path=Height}" /&gt;
+                    &lt;Setter TargetName="Root" Property="Height"
+                            Value="{Binding RelativeSource={RelativeSource TemplatedParent}, Path=Width}" /&gt;
+                &lt;/Trigger&gt;
+            &lt;/ControlTemplate.Triggers&gt;
+        &lt;/ControlTemplate&gt;
+    &lt;/ProgressBar.Template&gt;
+&lt;/ProgressBar&gt;
+
+         &lt;TextBlock
+            Canvas.Left="0"
+            Canvas.Top="151"
+            Width="142"
+            TextAlignment="Center"
+            FontFamily="Segoe UI"
+            FontSize="20"
+            FontWeight="SemiBold"
+            Foreground="#E8E8E8"
+            Text="{Binding ElementName=this, Path=DataContext.Value, StringFormat={}{0:F2} A, FallbackValue=—}" /&gt;
+      &lt;/Canvas&gt;
+   &lt;/Grid&gt;
+&lt;/UserControl&gt;</xamlCode>
+    </SettingsBase>
+    <SettingsBase xsi:type="SettingsXamlItem">
+      <_font>
+        <size>22</size>
+        <w>Normal</w>
+        <st>Normal</st>
+        <f>Segoe UI</f>
+        <col>#ff000000</col>
+      </_font>
+      <itemType>XamlControl</itemType>
+      <X>525</X>
+      <Y>1050</Y>
+      <Height>31</Height>
+      <Width>132</Width>
+      <ZOrder>4</ZOrder>
+      <Opacity>1</Opacity>
+      <SnapToGrid>false</SnapToGrid>
+      <GridSize>10</GridSize>
+      <font>
+        <size>22</size>
+        <w>Normal</w>
+        <st>Normal</st>
+        <f>Segoe UI</f>
+        <col>#ff000000</col>
+      </font>
+      <connection>service_data:1:data\sensor\hwinfo/dgpu_0_nvidia_geforce_rtx_5080_asus_rog_astral_geforce_rtx_5080_oc_ite_it8915fn/17/gpu_12vhpwr_pin4_power/83886083</connection>
+      <xamlCode>&lt;UserControl xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:d="http://schemas.microsoft.com/expression/blend/2008" x:Name="this" mc:Ignorable="d"&gt;&lt;Grid Background="Transparent"&gt;&lt;TextBlock VerticalAlignment="Center" TextAlignment="Center" FontFamily="Segoe UI" FontSize="17" Foreground="#E8E8E8" Text="{Binding ElementName=this, Path=DataContext.Value, StringFormat={}{0:F2} W, FallbackValue=—}"/&gt;&lt;/Grid&gt;&lt;/UserControl&gt;</xamlCode>
+    </SettingsBase>
+    <SettingsBase xsi:type="SettingsXamlItem">
+      <_font>
+        <size>22</size>
+        <w>Normal</w>
+        <st>Normal</st>
+        <f>Segoe UI</f>
+        <col>#ff000000</col>
+      </_font>
+      <itemType>XamlControl</itemType>
+      <X>681</X>
+      <Y>1003</Y>
+      <Height>31</Height>
+      <Width>132</Width>
+      <ZOrder>4</ZOrder>
+      <Opacity>1</Opacity>
+      <SnapToGrid>false</SnapToGrid>
+      <GridSize>10</GridSize>
+      <font>
+        <size>22</size>
+        <w>Normal</w>
+        <st>Normal</st>
+        <f>Segoe UI</f>
+        <col>#ff000000</col>
+      </font>
+      <connection>service_data:1:data\sensor\hwinfo/dgpu_0_nvidia_geforce_rtx_5080_asus_rog_astral_geforce_rtx_5080_oc_ite_it8915fn/17/gpu_12vhpwr_pin5_voltage/33554436</connection>
+      <xamlCode>&lt;UserControl xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:d="http://schemas.microsoft.com/expression/blend/2008" x:Name="this" mc:Ignorable="d"&gt;&lt;Grid Background="Transparent"&gt;&lt;TextBlock VerticalAlignment="Center" TextAlignment="Center" FontFamily="Segoe UI" FontSize="17" Foreground="#C3C3C3" Text="{Binding ElementName=this, Path=DataContext.Value, StringFormat={}{0:F3} V, FallbackValue=—}"/&gt;&lt;/Grid&gt;&lt;/UserControl&gt;</xamlCode>
+    </SettingsBase>
+    <SettingsBase xsi:type="SettingsXamlItem">
+      <_font>
+        <size>22</size>
+        <w>Normal</w>
+        <st>Normal</st>
+        <f>Segoe UI</f>
+        <col>#ff000000</col>
+      </_font>
+      <itemType>XamlControl</itemType>
+      <X>676</X>
+      <Y>799</Y>
+      <Height>184</Height>
+      <Width>142</Width>
+      <ZOrder>4</ZOrder>
+      <Opacity>1</Opacity>
+      <SnapToGrid>false</SnapToGrid>
+      <GridSize>10</GridSize>
+      <font>
+        <size>22</size>
+        <w>Normal</w>
+        <st>Normal</st>
+        <f>Segoe UI</f>
+        <col>#ff000000</col>
+      </font>
+      <connection>service_data:1:data\sensor\hwinfo/dgpu_0_nvidia_geforce_rtx_5080_asus_rog_astral_geforce_rtx_5080_oc_ite_it8915fn/17/gpu_12vhpwr_pin5_current/67108868</connection>
+      <xamlCode>&lt;UserControl
+   xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+   xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+   xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+   xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+   x:Name="this"
+   mc:Ignorable="d"
+   d:DesignWidth="142"
+   d:DesignHeight="184"&gt;
+   &lt;Grid
+      Background="Transparent"&gt;
+      &lt;Canvas
+         Width="142"
+         Height="184"&gt;
+         
+&lt;ProgressBar
+    Canvas.Left="47"
+    Canvas.Top="3"
+    Width="48"
+    Height="120"
+    Orientation="Vertical"
+    Minimum="0"
+    Maximum="15"
+    Value="{Binding ElementName=this, Path=DataContext.Value, FallbackValue=0}"&gt;
+
+    &lt;ProgressBar.Template&gt;
+        &lt;ControlTemplate TargetType="{x:Type ProgressBar}"&gt;
+            &lt;Grid x:Name="Root" ClipToBounds="True"&gt;
+                &lt;Border
+                    x:Name="PART_Track"
+                    Background="#272727"
+                    BorderBrush="#5C5C5C"
+                    BorderThickness="1"
+                    CornerRadius="5" /&gt;
+
+                &lt;Border
+                    x:Name="PART_Indicator"
+                    Background="#6AAFD0"
+                    CornerRadius="4"
+                    HorizontalAlignment="Left" /&gt;
+            &lt;/Grid&gt;
+
+            &lt;ControlTemplate.Triggers&gt;
+                &lt;Trigger Property="Orientation" Value="Vertical"&gt;
+                    &lt;Setter TargetName="Root" Property="LayoutTransform"&gt;
+                        &lt;Setter.Value&gt;
+                            &lt;RotateTransform Angle="270" /&gt;
+                        &lt;/Setter.Value&gt;
+                    &lt;/Setter&gt;
+                    &lt;Setter TargetName="Root" Property="Width"
+                            Value="{Binding RelativeSource={RelativeSource TemplatedParent}, Path=Height}" /&gt;
+                    &lt;Setter TargetName="Root" Property="Height"
+                            Value="{Binding RelativeSource={RelativeSource TemplatedParent}, Path=Width}" /&gt;
+                &lt;/Trigger&gt;
+            &lt;/ControlTemplate.Triggers&gt;
+        &lt;/ControlTemplate&gt;
+    &lt;/ProgressBar.Template&gt;
+&lt;/ProgressBar&gt;
+
+         &lt;TextBlock
+            Canvas.Left="0"
+            Canvas.Top="151"
+            Width="142"
+            TextAlignment="Center"
+            FontFamily="Segoe UI"
+            FontSize="20"
+            FontWeight="SemiBold"
+            Foreground="#E8E8E8"
+            Text="{Binding ElementName=this, Path=DataContext.Value, StringFormat={}{0:F2} A, FallbackValue=—}" /&gt;
+      &lt;/Canvas&gt;
+   &lt;/Grid&gt;
+&lt;/UserControl&gt;</xamlCode>
+    </SettingsBase>
+    <SettingsBase xsi:type="SettingsXamlItem">
+      <_font>
+        <size>22</size>
+        <w>Normal</w>
+        <st>Normal</st>
+        <f>Segoe UI</f>
+        <col>#ff000000</col>
+      </_font>
+      <itemType>XamlControl</itemType>
+      <X>681</X>
+      <Y>1050</Y>
+      <Height>31</Height>
+      <Width>132</Width>
+      <ZOrder>4</ZOrder>
+      <Opacity>1</Opacity>
+      <SnapToGrid>false</SnapToGrid>
+      <GridSize>10</GridSize>
+      <font>
+        <size>22</size>
+        <w>Normal</w>
+        <st>Normal</st>
+        <f>Segoe UI</f>
+        <col>#ff000000</col>
+      </font>
+      <connection>service_data:1:data\sensor\hwinfo/dgpu_0_nvidia_geforce_rtx_5080_asus_rog_astral_geforce_rtx_5080_oc_ite_it8915fn/17/gpu_12vhpwr_pin5_power/83886084</connection>
+      <xamlCode>&lt;UserControl xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:d="http://schemas.microsoft.com/expression/blend/2008" x:Name="this" mc:Ignorable="d"&gt;&lt;Grid Background="Transparent"&gt;&lt;TextBlock VerticalAlignment="Center" TextAlignment="Center" FontFamily="Segoe UI" FontSize="17" Foreground="#E8E8E8" Text="{Binding ElementName=this, Path=DataContext.Value, StringFormat={}{0:F2} W, FallbackValue=—}"/&gt;&lt;/Grid&gt;&lt;/UserControl&gt;</xamlCode>
+    </SettingsBase>
+    <SettingsBase xsi:type="SettingsXamlItem">
+      <_font>
+        <size>22</size>
+        <w>Normal</w>
+        <st>Normal</st>
+        <f>Segoe UI</f>
+        <col>#ff000000</col>
+      </_font>
+      <itemType>XamlControl</itemType>
+      <X>838</X>
+      <Y>1003</Y>
+      <Height>31</Height>
+      <Width>132</Width>
+      <ZOrder>4</ZOrder>
+      <Opacity>1</Opacity>
+      <SnapToGrid>false</SnapToGrid>
+      <GridSize>10</GridSize>
+      <font>
+        <size>22</size>
+        <w>Normal</w>
+        <st>Normal</st>
+        <f>Segoe UI</f>
+        <col>#ff000000</col>
+      </font>
+      <connection>service_data:1:data\sensor\hwinfo/dgpu_0_nvidia_geforce_rtx_5080_asus_rog_astral_geforce_rtx_5080_oc_ite_it8915fn/17/gpu_12vhpwr_pin6_voltage/33554437</connection>
+      <xamlCode>&lt;UserControl xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:d="http://schemas.microsoft.com/expression/blend/2008" x:Name="this" mc:Ignorable="d"&gt;&lt;Grid Background="Transparent"&gt;&lt;TextBlock VerticalAlignment="Center" TextAlignment="Center" FontFamily="Segoe UI" FontSize="17" Foreground="#C3C3C3" Text="{Binding ElementName=this, Path=DataContext.Value, StringFormat={}{0:F3} V, FallbackValue=—}"/&gt;&lt;/Grid&gt;&lt;/UserControl&gt;</xamlCode>
+    </SettingsBase>
+    <SettingsBase xsi:type="SettingsXamlItem">
+      <_font>
+        <size>22</size>
+        <w>Normal</w>
+        <st>Normal</st>
+        <f>Segoe UI</f>
+        <col>#ff000000</col>
+      </_font>
+      <itemType>XamlControl</itemType>
+      <X>832</X>
+      <Y>799</Y>
+      <Height>184</Height>
+      <Width>142</Width>
+      <ZOrder>4</ZOrder>
+      <Opacity>1</Opacity>
+      <SnapToGrid>false</SnapToGrid>
+      <GridSize>10</GridSize>
+      <font>
+        <size>22</size>
+        <w>Normal</w>
+        <st>Normal</st>
+        <f>Segoe UI</f>
+        <col>#ff000000</col>
+      </font>
+      <connection>service_data:1:data\sensor\hwinfo/dgpu_0_nvidia_geforce_rtx_5080_asus_rog_astral_geforce_rtx_5080_oc_ite_it8915fn/17/gpu_12vhpwr_pin6_current/67108869</connection>
+      <xamlCode>&lt;UserControl
+   xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+   xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+   xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+   xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+   x:Name="this"
+   mc:Ignorable="d"
+   d:DesignWidth="142"
+   d:DesignHeight="184"&gt;
+   &lt;Grid
+      Background="Transparent"&gt;
+      &lt;Canvas
+         Width="142"
+         Height="184"&gt;
+         
+&lt;ProgressBar
+    Canvas.Left="47"
+    Canvas.Top="3"
+    Width="48"
+    Height="120"
+    Orientation="Vertical"
+    Minimum="0"
+    Maximum="15"
+    Value="{Binding ElementName=this, Path=DataContext.Value, FallbackValue=0}"&gt;
+
+    &lt;ProgressBar.Template&gt;
+        &lt;ControlTemplate TargetType="{x:Type ProgressBar}"&gt;
+            &lt;Grid x:Name="Root" ClipToBounds="True"&gt;
+                &lt;Border
+                    x:Name="PART_Track"
+                    Background="#272727"
+                    BorderBrush="#5C5C5C"
+                    BorderThickness="1"
+                    CornerRadius="5" /&gt;
+
+                &lt;Border
+                    x:Name="PART_Indicator"
+                    Background="#6AAFD0"
+                    CornerRadius="4"
+                    HorizontalAlignment="Left" /&gt;
+            &lt;/Grid&gt;
+
+            &lt;ControlTemplate.Triggers&gt;
+                &lt;Trigger Property="Orientation" Value="Vertical"&gt;
+                    &lt;Setter TargetName="Root" Property="LayoutTransform"&gt;
+                        &lt;Setter.Value&gt;
+                            &lt;RotateTransform Angle="270" /&gt;
+                        &lt;/Setter.Value&gt;
+                    &lt;/Setter&gt;
+                    &lt;Setter TargetName="Root" Property="Width"
+                            Value="{Binding RelativeSource={RelativeSource TemplatedParent}, Path=Height}" /&gt;
+                    &lt;Setter TargetName="Root" Property="Height"
+                            Value="{Binding RelativeSource={RelativeSource TemplatedParent}, Path=Width}" /&gt;
+                &lt;/Trigger&gt;
+            &lt;/ControlTemplate.Triggers&gt;
+        &lt;/ControlTemplate&gt;
+    &lt;/ProgressBar.Template&gt;
+&lt;/ProgressBar&gt;
+
+         &lt;TextBlock
+            Canvas.Left="0"
+            Canvas.Top="151"
+            Width="142"
+            TextAlignment="Center"
+            FontFamily="Segoe UI"
+            FontSize="20"
+            FontWeight="SemiBold"
+            Foreground="#E8E8E8"
+            Text="{Binding ElementName=this, Path=DataContext.Value, StringFormat={}{0:F2} A, FallbackValue=—}" /&gt;
+      &lt;/Canvas&gt;
+   &lt;/Grid&gt;
+&lt;/UserControl&gt;</xamlCode>
+    </SettingsBase>
+    <SettingsBase xsi:type="SettingsXamlItem">
+      <_font>
+        <size>22</size>
+        <w>Normal</w>
+        <st>Normal</st>
+        <f>Segoe UI</f>
+        <col>#ff000000</col>
+      </_font>
+      <itemType>XamlControl</itemType>
+      <X>837</X>
+      <Y>1050</Y>
+      <Height>31</Height>
+      <Width>132</Width>
+      <ZOrder>4</ZOrder>
+      <Opacity>1</Opacity>
+      <SnapToGrid>false</SnapToGrid>
+      <GridSize>10</GridSize>
+      <font>
+        <size>22</size>
+        <w>Normal</w>
+        <st>Normal</st>
+        <f>Segoe UI</f>
+        <col>#ff000000</col>
+      </font>
+      <connection>service_data:1:data\sensor\hwinfo/dgpu_0_nvidia_geforce_rtx_5080_asus_rog_astral_geforce_rtx_5080_oc_ite_it8915fn/17/gpu_12vhpwr_pin6_power/83886085</connection>
+      <xamlCode>&lt;UserControl xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:d="http://schemas.microsoft.com/expression/blend/2008" x:Name="this" mc:Ignorable="d"&gt;&lt;Grid Background="Transparent"&gt;&lt;TextBlock VerticalAlignment="Center" TextAlignment="Center" FontFamily="Segoe UI" FontSize="17" Foreground="#E8E8E8" Text="{Binding ElementName=this, Path=DataContext.Value, StringFormat={}{0:F2} W, FallbackValue=—}"/&gt;&lt;/Grid&gt;&lt;/UserControl&gt;</xamlCode>
+    </SettingsBase>
+    <SettingsBase xsi:type="SettingsXamlItem">
+      <_font>
+        <size>22</size>
+        <w>Normal</w>
+        <st>Normal</st>
+        <f>Segoe UI</f>
+        <col>#ff000000</col>
+      </_font>
+      <itemType>XamlControl</itemType>
+      <X>1058</X>
+      <Y>788</Y>
+      <Height>59</Height>
+      <Width>223</Width>
+      <ZOrder>4</ZOrder>
+      <Opacity>1</Opacity>
+      <SnapToGrid>false</SnapToGrid>
+      <GridSize>10</GridSize>
+      <font>
+        <size>22</size>
+        <w>Normal</w>
+        <st>Normal</st>
+        <f>Segoe UI</f>
+        <col>#ff000000</col>
+      </font>
+      <connection>service_data:1:data\sensor\hwinfo/dgpu_0_nvidia_geforce_rtx_5080_asus_rog_astral_geforce_rtx_5080_oc_ite_it8915fn/17/gpu_pcie_slot_peg_voltage/33554442</connection>
+      <xamlCode>&lt;UserControl xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:d="http://schemas.microsoft.com/expression/blend/2008" xmlns:sys="clr-namespace:System;assembly=mscorlib" x:Name="this" mc:Ignorable="d" d:DesignWidth="400" d:DesignHeight="200"&gt;&lt;Grid Background="Transparent"&gt;&lt;TextBlock FontFamily="Segoe UI" FontSize="36" FontWeight="SemiBold" Foreground="#E8E8E8" VerticalAlignment="Center" Text="{Binding ElementName=this, Path=DataContext.Value, StringFormat={}{0:F3} V, FallbackValue=—}"/&gt;&lt;/Grid&gt;&lt;/UserControl&gt;</xamlCode>
+    </SettingsBase>
+    <SettingsBase xsi:type="SettingsDataItem">
+      <_font>
+        <size>22</size>
+        <w>Normal</w>
+        <st>Normal</st>
+        <f>Segoe UI</f>
+        <col>#ffe8e8e8</col>
+      </_font>
+      <itemType>SensorData</itemType>
+      <X>1309</X>
+      <Y>768</Y>
+      <Height>77</Height>
+      <Width>220</Width>
+      <ZOrder>4</ZOrder>
+      <Opacity>1</Opacity>
+      <SnapToGrid>false</SnapToGrid>
+      <GridSize>10</GridSize>
+      <font>
+        <size>22</size>
+        <w>Normal</w>
+        <st>Normal</st>
+        <f>Segoe UI</f>
+        <col>#ffe8e8e8</col>
+      </font>
+      <connection>service_data:1:data\sensor\hwinfo/dgpu_0_nvidia_geforce_rtx_5080_asus_rog_astral_geforce_rtx_5080_oc_ite_it8915fn/17/gpu_pcie_slot_peg_voltage/33554442</connection>
+      <ItemStyle>CHART</ItemStyle>
+      <TitleSource>manual</TitleSource>
+      <Title>GPU PCIe Slot (PEG) Voltage</Title>
+      <TitleShow>false</TitleShow>
+      <backgroundOpacity>0</backgroundOpacity>
+      <logTimespan>60</logTimespan>
+      <numberPrecision>1</numberPrecision>
+      <showStatistic>false</showStatistic>
+      <statisticPosition>right</statisticPosition>
+      <fontStatistic>
+        <size>14</size>
+        <w>Normal</w>
+        <st>Normal</st>
+        <f>Segoe UI</f>
+        <col>#ffffffff</col>
+      </fontStatistic>
+      <BarOrientation>Horizontal</BarOrientation>
+      <barHeight>25</barHeight>
+      <showBarValue>true</showBarValue>
+      <ShowBarGrid>false</ShowBarGrid>
+      <BarStartValue>0</BarStartValue>
+      <BarEndValue>100</BarEndValue>
+      <BarBorderColor>
+        <c>#00000000</c>
+      </BarBorderColor>
+      <BarBorderWidth>2</BarBorderWidth>
+      <BarBackgroundBorderColor>
+        <c>#00ffffff</c>
+      </BarBackgroundBorderColor>
+      <chartRangeSettings>manually</chartRangeSettings>
+      <rangeMin>10</rangeMin>
+      <rangeMax>13</rangeMax>
+      <zoomMax>5</zoomMax>
+      <chartGrowRangeValue>false</chartGrowRangeValue>
+      <chartLineWidth>2</chartLineWidth>
+      <chartLineColor>
+        <c>#00000000</c>
+      </chartLineColor>
+      <colors>
+        <col>
+          <c>#FF6AAFD0</c>
+        </col>
+        <position>50</position>
+      </colors>
+      <colors>
+        <col>
+          <c>#FF6AAFD0</c>
+        </col>
+        <position>70</position>
+      </colors>
+      <colors>
+        <col>
+          <c>#FF6AAFD0</c>
+        </col>
+        <position>100</position>
+      </colors>
+      <backgroundMode>User</backgroundMode>
+      <backgroundColor>
+        <c>#00000000</c>
+      </backgroundColor>
+      <gauge>
+        <IndicatorHeight>8</IndicatorHeight>
+        <ScaleColor>
+          <c>#ff000000</c>
+        </ScaleColor>
+        <Minimum>0</Minimum>
+        <Maximum>100</Maximum>
+        <NeedleColor>
+          <c>#ff8b0000</c>
+        </NeedleColor>
+        <ShowStatisticBar>true</ShowStatisticBar>
+        <StatisticColor>
+          <c>#ff6aafd0</c>
+        </StatisticColor>
+        <StatisticHeight>5</StatisticHeight>
+        <ScaleAngle>120</ScaleAngle>
+        <MajorTickStep>10</MajorTickStep>
+        <MinorTickStep>5</MinorTickStep>
+      </gauge>
+      <ChartAxisFont>
+        <size>12</size>
+        <w>Normal</w>
+        <st>Normal</st>
+        <f>Segoe UI</f>
+        <col>#ff000000</col>
+      </ChartAxisFont>
+      <ChartAxisColor>
+        <c>#00000000</c>
+      </ChartAxisColor>
+      <ChartShowXAxis>false</ChartShowXAxis>
+      <ChartShowXAxisLabels>false</ChartShowXAxisLabels>
+      <ChartShowYAxis>false</ChartShowYAxis>
+      <ChartShowYAxisLabels>false</ChartShowYAxisLabels>
+      <ChartValueGridColor>
+        <c>#00000000</c>
+      </ChartValueGridColor>
+    </SettingsBase>
+    <SettingsBase xsi:type="SettingsXamlItem">
+      <_font>
+        <size>22</size>
+        <w>Normal</w>
+        <st>Normal</st>
+        <f>Segoe UI</f>
+        <col>#ff000000</col>
+      </_font>
+      <itemType>XamlControl</itemType>
+      <X>1058</X>
+      <Y>899</Y>
+      <Height>59</Height>
+      <Width>223</Width>
+      <ZOrder>4</ZOrder>
+      <Opacity>1</Opacity>
+      <SnapToGrid>false</SnapToGrid>
+      <GridSize>10</GridSize>
+      <font>
+        <size>22</size>
+        <w>Normal</w>
+        <st>Normal</st>
+        <f>Segoe UI</f>
+        <col>#ff000000</col>
+      </font>
+      <connection>service_data:1:data\sensor\hwinfo/dgpu_0_nvidia_geforce_rtx_5080_asus_rog_astral_geforce_rtx_5080_oc_ite_it8915fn/17/gpu_pcie_slot_peg_current/67108874</connection>
+      <xamlCode>&lt;UserControl xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:d="http://schemas.microsoft.com/expression/blend/2008" xmlns:sys="clr-namespace:System;assembly=mscorlib" x:Name="this" mc:Ignorable="d" d:DesignWidth="400" d:DesignHeight="200"&gt;&lt;Grid Background="Transparent"&gt;&lt;TextBlock FontFamily="Segoe UI" FontSize="36" FontWeight="SemiBold" Foreground="#E8E8E8" VerticalAlignment="Center" Text="{Binding ElementName=this, Path=DataContext.Value, StringFormat={}{0:F3} A, FallbackValue=—}"/&gt;&lt;/Grid&gt;&lt;/UserControl&gt;</xamlCode>
+    </SettingsBase>
+    <SettingsBase xsi:type="SettingsDataItem">
+      <_font>
+        <size>22</size>
+        <w>Normal</w>
+        <st>Normal</st>
+        <f>Segoe UI</f>
+        <col>#ffe8e8e8</col>
+      </_font>
+      <itemType>SensorData</itemType>
+      <X>1309</X>
+      <Y>879</Y>
+      <Height>77</Height>
+      <Width>220</Width>
+      <ZOrder>4</ZOrder>
+      <Opacity>1</Opacity>
+      <SnapToGrid>false</SnapToGrid>
+      <GridSize>10</GridSize>
+      <font>
+        <size>22</size>
+        <w>Normal</w>
+        <st>Normal</st>
+        <f>Segoe UI</f>
+        <col>#ffe8e8e8</col>
+      </font>
+      <connection>service_data:1:data\sensor\hwinfo/dgpu_0_nvidia_geforce_rtx_5080_asus_rog_astral_geforce_rtx_5080_oc_ite_it8915fn/17/gpu_pcie_slot_peg_current/67108874</connection>
+      <ItemStyle>CHART</ItemStyle>
+      <TitleSource>manual</TitleSource>
+      <Title>GPU PCIe Slot (PEG) Current</Title>
+      <TitleShow>false</TitleShow>
+      <backgroundOpacity>0</backgroundOpacity>
+      <logTimespan>60</logTimespan>
+      <numberPrecision>1</numberPrecision>
+      <showStatistic>false</showStatistic>
+      <statisticPosition>right</statisticPosition>
+      <fontStatistic>
+        <size>14</size>
+        <w>Normal</w>
+        <st>Normal</st>
+        <f>Segoe UI</f>
+        <col>#ffffffff</col>
+      </fontStatistic>
+      <BarOrientation>Horizontal</BarOrientation>
+      <barHeight>25</barHeight>
+      <showBarValue>true</showBarValue>
+      <ShowBarGrid>false</ShowBarGrid>
+      <BarStartValue>0</BarStartValue>
+      <BarEndValue>100</BarEndValue>
+      <BarBorderColor>
+        <c>#00000000</c>
+      </BarBorderColor>
+      <BarBorderWidth>2</BarBorderWidth>
+      <BarBackgroundBorderColor>
+        <c>#00ffffff</c>
+      </BarBackgroundBorderColor>
+      <chartRangeSettings>manually</chartRangeSettings>
+      <rangeMin>0</rangeMin>
+      <rangeMax>10</rangeMax>
+      <zoomMax>5</zoomMax>
+      <chartGrowRangeValue>false</chartGrowRangeValue>
+      <chartLineWidth>2</chartLineWidth>
+      <chartLineColor>
+        <c>#00000000</c>
+      </chartLineColor>
+      <colors>
+        <col>
+          <c>#FF6AAFD0</c>
+        </col>
+        <position>50</position>
+      </colors>
+      <colors>
+        <col>
+          <c>#FF6AAFD0</c>
+        </col>
+        <position>70</position>
+      </colors>
+      <colors>
+        <col>
+          <c>#FF6AAFD0</c>
+        </col>
+        <position>100</position>
+      </colors>
+      <backgroundMode>User</backgroundMode>
+      <backgroundColor>
+        <c>#00000000</c>
+      </backgroundColor>
+      <gauge>
+        <IndicatorHeight>8</IndicatorHeight>
+        <ScaleColor>
+          <c>#ff000000</c>
+        </ScaleColor>
+        <Minimum>0</Minimum>
+        <Maximum>100</Maximum>
+        <NeedleColor>
+          <c>#ff8b0000</c>
+        </NeedleColor>
+        <ShowStatisticBar>true</ShowStatisticBar>
+        <StatisticColor>
+          <c>#ff6aafd0</c>
+        </StatisticColor>
+        <StatisticHeight>5</StatisticHeight>
+        <ScaleAngle>120</ScaleAngle>
+        <MajorTickStep>10</MajorTickStep>
+        <MinorTickStep>5</MinorTickStep>
+      </gauge>
+      <ChartAxisFont>
+        <size>12</size>
+        <w>Normal</w>
+        <st>Normal</st>
+        <f>Segoe UI</f>
+        <col>#ff000000</col>
+      </ChartAxisFont>
+      <ChartAxisColor>
+        <c>#00000000</c>
+      </ChartAxisColor>
+      <ChartShowXAxis>false</ChartShowXAxis>
+      <ChartShowXAxisLabels>false</ChartShowXAxisLabels>
+      <ChartShowYAxis>false</ChartShowYAxis>
+      <ChartShowYAxisLabels>false</ChartShowYAxisLabels>
+      <ChartValueGridColor>
+        <c>#00000000</c>
+      </ChartValueGridColor>
+    </SettingsBase>
+    <SettingsBase xsi:type="SettingsXamlItem">
+      <_font>
+        <size>22</size>
+        <w>Normal</w>
+        <st>Normal</st>
+        <f>Segoe UI</f>
+        <col>#ff000000</col>
+      </_font>
+      <itemType>XamlControl</itemType>
+      <X>1058</X>
+      <Y>1010</Y>
+      <Height>59</Height>
+      <Width>223</Width>
+      <ZOrder>4</ZOrder>
+      <Opacity>1</Opacity>
+      <SnapToGrid>false</SnapToGrid>
+      <GridSize>10</GridSize>
+      <font>
+        <size>22</size>
+        <w>Normal</w>
+        <st>Normal</st>
+        <f>Segoe UI</f>
+        <col>#ff000000</col>
+      </font>
+      <connection>service_data:1:data\sensor\hwinfo/dgpu_0_nvidia_geforce_rtx_5080_asus_rog_astral_geforce_rtx_5080_oc_ite_it8915fn/17/gpu_pcie_slot_peg_power/83886090</connection>
+      <xamlCode>&lt;UserControl xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:d="http://schemas.microsoft.com/expression/blend/2008" xmlns:sys="clr-namespace:System;assembly=mscorlib" x:Name="this" mc:Ignorable="d" d:DesignWidth="400" d:DesignHeight="200"&gt;&lt;Grid Background="Transparent"&gt;&lt;TextBlock FontFamily="Segoe UI" FontSize="36" FontWeight="SemiBold" Foreground="#E8E8E8" VerticalAlignment="Center" Text="{Binding ElementName=this, Path=DataContext.Value, StringFormat={}{0:F2} W, FallbackValue=—}"/&gt;&lt;/Grid&gt;&lt;/UserControl&gt;</xamlCode>
+    </SettingsBase>
+    <SettingsBase xsi:type="SettingsDataItem">
+      <_font>
+        <size>22</size>
+        <w>Normal</w>
+        <st>Normal</st>
+        <f>Segoe UI</f>
+        <col>#ffe8e8e8</col>
+      </_font>
+      <itemType>SensorData</itemType>
+      <X>1309</X>
+      <Y>990</Y>
+      <Height>77</Height>
+      <Width>220</Width>
+      <ZOrder>4</ZOrder>
+      <Opacity>1</Opacity>
+      <SnapToGrid>false</SnapToGrid>
+      <GridSize>10</GridSize>
+      <font>
+        <size>22</size>
+        <w>Normal</w>
+        <st>Normal</st>
+        <f>Segoe UI</f>
+        <col>#ffe8e8e8</col>
+      </font>
+      <connection>service_data:1:data\sensor\hwinfo/dgpu_0_nvidia_geforce_rtx_5080_asus_rog_astral_geforce_rtx_5080_oc_ite_it8915fn/17/gpu_pcie_slot_peg_power/83886090</connection>
+      <ItemStyle>CHART</ItemStyle>
+      <TitleSource>manual</TitleSource>
+      <Title>GPU PCIe Slot (PEG) Power</Title>
+      <TitleShow>false</TitleShow>
+      <backgroundOpacity>0</backgroundOpacity>
+      <logTimespan>60</logTimespan>
+      <numberPrecision>1</numberPrecision>
+      <showStatistic>false</showStatistic>
+      <statisticPosition>right</statisticPosition>
+      <fontStatistic>
+        <size>14</size>
+        <w>Normal</w>
+        <st>Normal</st>
+        <f>Segoe UI</f>
+        <col>#ffffffff</col>
+      </fontStatistic>
+      <BarOrientation>Horizontal</BarOrientation>
+      <barHeight>25</barHeight>
+      <showBarValue>true</showBarValue>
+      <ShowBarGrid>false</ShowBarGrid>
+      <BarStartValue>0</BarStartValue>
+      <BarEndValue>100</BarEndValue>
+      <BarBorderColor>
+        <c>#00000000</c>
+      </BarBorderColor>
+      <BarBorderWidth>2</BarBorderWidth>
+      <BarBackgroundBorderColor>
+        <c>#00ffffff</c>
+      </BarBackgroundBorderColor>
+      <chartRangeSettings>manually</chartRangeSettings>
+      <rangeMin>0</rangeMin>
+      <rangeMax>75</rangeMax>
+      <zoomMax>5</zoomMax>
+      <chartGrowRangeValue>false</chartGrowRangeValue>
+      <chartLineWidth>2</chartLineWidth>
+      <chartLineColor>
+        <c>#00000000</c>
+      </chartLineColor>
+      <colors>
+        <col>
+          <c>#FF6AAFD0</c>
+        </col>
+        <position>50</position>
+      </colors>
+      <colors>
+        <col>
+          <c>#FF6AAFD0</c>
+        </col>
+        <position>70</position>
+      </colors>
+      <colors>
+        <col>
+          <c>#FF6AAFD0</c>
+        </col>
+        <position>100</position>
+      </colors>
+      <backgroundMode>User</backgroundMode>
+      <backgroundColor>
+        <c>#00000000</c>
+      </backgroundColor>
+      <gauge>
+        <IndicatorHeight>8</IndicatorHeight>
+        <ScaleColor>
+          <c>#ff000000</c>
+        </ScaleColor>
+        <Minimum>0</Minimum>
+        <Maximum>100</Maximum>
+        <NeedleColor>
+          <c>#ff8b0000</c>
+        </NeedleColor>
+        <ShowStatisticBar>true</ShowStatisticBar>
+        <StatisticColor>
+          <c>#ff6aafd0</c>
+        </StatisticColor>
+        <StatisticHeight>5</StatisticHeight>
+        <ScaleAngle>120</ScaleAngle>
+        <MajorTickStep>10</MajorTickStep>
+        <MinorTickStep>5</MinorTickStep>
+      </gauge>
+      <ChartAxisFont>
+        <size>12</size>
+        <w>Normal</w>
+        <st>Normal</st>
+        <f>Segoe UI</f>
+        <col>#ff000000</col>
+      </ChartAxisFont>
+      <ChartAxisColor>
+        <c>#00000000</c>
+      </ChartAxisColor>
+      <ChartShowXAxis>false</ChartShowXAxis>
+      <ChartShowXAxisLabels>false</ChartShowXAxisLabels>
+      <ChartShowYAxis>false</ChartShowYAxis>
+      <ChartShowYAxisLabels>false</ChartShowYAxisLabels>
+      <ChartValueGridColor>
+        <c>#00000000</c>
+      </ChartValueGridColor>
+    </SettingsBase>
+    <SettingsBase xsi:type="SettingsDataItem">
+      <_font>
+        <size>22</size>
+        <w>Normal</w>
+        <st>Normal</st>
+        <f>Segoe UI</f>
+        <col>#ffe8e8e8</col>
+      </_font>
+      <itemType>SensorData</itemType>
+      <X>725</X>
+      <Y>548</Y>
+      <Height>33</Height>
+      <Width>254</Width>
+      <ZOrder>4</ZOrder>
+      <Opacity>1</Opacity>
+      <SnapToGrid>false</SnapToGrid>
+      <GridSize>10</GridSize>
+      <font>
+        <size>22</size>
+        <w>Normal</w>
+        <st>Normal</st>
+        <f>Segoe UI</f>
+        <col>#ffe8e8e8</col>
+      </font>
+      <connection>service_data:1:data\sensor\hwinfo/dgpu_0_nvidia_geforce_rtx_5080_asus_rog_astral_geforce_rtx_5080_oc_ite_it8915fn/17/gpu_board_temperature_7/16777222</connection>
+      <ItemStyle>CHART</ItemStyle>
+      <TitleSource>manual</TitleSource>
+      <Title>GPU Board Temperature 7</Title>
+      <TitleShow>false</TitleShow>
+      <backgroundOpacity>0</backgroundOpacity>
+      <logTimespan>10</logTimespan>
+      <numberPrecision>1</numberPrecision>
+      <showStatistic>false</showStatistic>
+      <statisticPosition>right</statisticPosition>
+      <fontStatistic>
+        <size>14</size>
+        <w>Normal</w>
+        <st>Normal</st>
+        <f>Segoe UI</f>
+        <col>#ffffffff</col>
+      </fontStatistic>
+      <BarOrientation>Horizontal</BarOrientation>
+      <barHeight>25</barHeight>
+      <showBarValue>true</showBarValue>
+      <ShowBarGrid>false</ShowBarGrid>
+      <BarStartValue>0</BarStartValue>
+      <BarEndValue>100</BarEndValue>
+      <BarBorderColor>
+        <c>#00000000</c>
+      </BarBorderColor>
+      <BarBorderWidth>2</BarBorderWidth>
+      <BarBackgroundBorderColor>
+        <c>#00ffffff</c>
+      </BarBackgroundBorderColor>
+      <chartRangeSettings>manually</chartRangeSettings>
+      <rangeMin>15</rangeMin>
+      <rangeMax>100</rangeMax>
+      <zoomMax>5</zoomMax>
+      <chartGrowRangeValue>false</chartGrowRangeValue>
+      <chartLineWidth>2</chartLineWidth>
+      <chartLineColor>
+        <c>#00000000</c>
+      </chartLineColor>
+      <colors>
+        <col>
+          <c>#ff87c878</c>
+        </col>
+        <position>50</position>
+      </colors>
+      <colors>
+        <col>
+          <c>#ffc8c83c</c>
+        </col>
+        <position>70</position>
+      </colors>
+      <colors>
+        <col>
+          <c>#ffc87878</c>
+        </col>
+        <position>85</position>
+      </colors>
+      <backgroundMode>User</backgroundMode>
+      <backgroundColor>
+        <c>#00000000</c>
+      </backgroundColor>
+      <gauge>
+        <IndicatorHeight>8</IndicatorHeight>
+        <ScaleColor>
+          <c>#ff000000</c>
+        </ScaleColor>
+        <Minimum>0</Minimum>
+        <Maximum>100</Maximum>
+        <NeedleColor>
+          <c>#ff8b0000</c>
+        </NeedleColor>
+        <ShowStatisticBar>true</ShowStatisticBar>
+        <StatisticColor>
+          <c>#ff6aafd0</c>
+        </StatisticColor>
+        <StatisticHeight>5</StatisticHeight>
+        <ScaleAngle>120</ScaleAngle>
+        <MajorTickStep>10</MajorTickStep>
+        <MinorTickStep>5</MinorTickStep>
+      </gauge>
+      <ChartAxisFont>
+        <size>12</size>
+        <w>Normal</w>
+        <st>Normal</st>
+        <f>Segoe UI</f>
+        <col>#ff000000</col>
+      </ChartAxisFont>
+      <ChartAxisColor>
+        <c>#00000000</c>
+      </ChartAxisColor>
+      <ChartShowXAxis>false</ChartShowXAxis>
+      <ChartShowXAxisLabels>false</ChartShowXAxisLabels>
+      <ChartShowYAxis>false</ChartShowYAxis>
+      <ChartShowYAxisLabels>false</ChartShowYAxisLabels>
+      <ChartValueGridColor>
+        <c>#00000000</c>
+      </ChartValueGridColor>
+    </SettingsBase>
+    <SettingsBase xsi:type="SettingsDataItem">
+      <_font>
+        <size>22</size>
+        <w>Normal</w>
+        <st>Normal</st>
+        <f>Segoe UI</f>
+        <col>#ffe8e8e8</col>
+      </_font>
+      <itemType>SensorData</itemType>
+      <X>725</X>
+      <Y>594</Y>
+      <Height>33</Height>
+      <Width>254</Width>
+      <ZOrder>4</ZOrder>
+      <Opacity>1</Opacity>
+      <SnapToGrid>false</SnapToGrid>
+      <GridSize>10</GridSize>
+      <font>
+        <size>22</size>
+        <w>Normal</w>
+        <st>Normal</st>
+        <f>Segoe UI</f>
+        <col>#ffe8e8e8</col>
+      </font>
+      <connection>service_data:1:data\sensor\hwinfo/dgpu_0_nvidia_geforce_rtx_5080_asus_rog_astral_geforce_rtx_5080_oc_ite_it8915fn/17/gpu_board_temperature_8/16777223</connection>
+      <ItemStyle>CHART</ItemStyle>
+      <TitleSource>manual</TitleSource>
+      <Title>GPU Board Temperature 8</Title>
+      <TitleShow>false</TitleShow>
+      <backgroundOpacity>0</backgroundOpacity>
+      <logTimespan>10</logTimespan>
+      <numberPrecision>1</numberPrecision>
+      <showStatistic>false</showStatistic>
+      <statisticPosition>right</statisticPosition>
+      <fontStatistic>
+        <size>14</size>
+        <w>Normal</w>
+        <st>Normal</st>
+        <f>Segoe UI</f>
+        <col>#ffffffff</col>
+      </fontStatistic>
+      <BarOrientation>Horizontal</BarOrientation>
+      <barHeight>25</barHeight>
+      <showBarValue>true</showBarValue>
+      <ShowBarGrid>false</ShowBarGrid>
+      <BarStartValue>0</BarStartValue>
+      <BarEndValue>100</BarEndValue>
+      <BarBorderColor>
+        <c>#00000000</c>
+      </BarBorderColor>
+      <BarBorderWidth>2</BarBorderWidth>
+      <BarBackgroundBorderColor>
+        <c>#00ffffff</c>
+      </BarBackgroundBorderColor>
+      <chartRangeSettings>manually</chartRangeSettings>
+      <rangeMin>15</rangeMin>
+      <rangeMax>100</rangeMax>
+      <zoomMax>5</zoomMax>
+      <chartGrowRangeValue>false</chartGrowRangeValue>
+      <chartLineWidth>2</chartLineWidth>
+      <chartLineColor>
+        <c>#00000000</c>
+      </chartLineColor>
+      <colors>
+        <col>
+          <c>#ff87c878</c>
+        </col>
+        <position>50</position>
+      </colors>
+      <colors>
+        <col>
+          <c>#ffc8c83c</c>
+        </col>
+        <position>70</position>
+      </colors>
+      <colors>
+        <col>
+          <c>#ffc87878</c>
+        </col>
+        <position>85</position>
+      </colors>
+      <backgroundMode>User</backgroundMode>
+      <backgroundColor>
+        <c>#00000000</c>
+      </backgroundColor>
+      <gauge>
+        <IndicatorHeight>8</IndicatorHeight>
+        <ScaleColor>
+          <c>#ff000000</c>
+        </ScaleColor>
+        <Minimum>0</Minimum>
+        <Maximum>100</Maximum>
+        <NeedleColor>
+          <c>#ff8b0000</c>
+        </NeedleColor>
+        <ShowStatisticBar>true</ShowStatisticBar>
+        <StatisticColor>
+          <c>#ff6aafd0</c>
+        </StatisticColor>
+        <StatisticHeight>5</StatisticHeight>
+        <ScaleAngle>120</ScaleAngle>
+        <MajorTickStep>10</MajorTickStep>
+        <MinorTickStep>5</MinorTickStep>
+      </gauge>
+      <ChartAxisFont>
+        <size>12</size>
+        <w>Normal</w>
+        <st>Normal</st>
+        <f>Segoe UI</f>
+        <col>#ff000000</col>
+      </ChartAxisFont>
+      <ChartAxisColor>
+        <c>#00000000</c>
+      </ChartAxisColor>
+      <ChartShowXAxis>false</ChartShowXAxis>
+      <ChartShowXAxisLabels>false</ChartShowXAxisLabels>
+      <ChartShowYAxis>false</ChartShowYAxis>
+      <ChartShowYAxisLabels>false</ChartShowYAxisLabels>
+      <ChartValueGridColor>
+        <c>#00000000</c>
+      </ChartValueGridColor>
+    </SettingsBase>
+  </Items>
+</SettingsGroup>

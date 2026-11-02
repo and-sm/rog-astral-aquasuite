@@ -1,0 +1,347 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<VirtualSoftwareSensorItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Item>
+    <Id>d1c4b510-ef9f-4e26-8e01-89902b046061</Id>
+    <Items>
+      <VirtualSoftwareSensorNodeSettings>
+        <Id>aa9e96e6-630d-4f28-8ca7-21785e163fc0</Id>
+        <Name>12VHPWR CRITICAL CURRENT</Name>
+        <Parameters>
+          <VirtualNodeParameter>
+            <Name>log</Name>
+            <Value>1</Value>
+            <Text />
+          </VirtualNodeParameter>
+          <VirtualNodeParameter>
+            <Name>text</Name>
+            <Value>0</Value>
+            <Text>CRITICAL: GPU power connector pin current exceeded 9.2 A! Shut down the PC and inspect the power cable and connector.</Text>
+          </VirtualNodeParameter>
+          <VirtualNodeParameter>
+            <Name>output_delay</Name>
+            <Value>3</Value>
+            <Text />
+          </VirtualNodeParameter>
+          <VirtualNodeParameter>
+            <Name>output_limiter</Name>
+            <Value>300</Value>
+            <Text />
+          </VirtualNodeParameter>
+          <VirtualNodeParameter>
+            <Name>output_repeat</Name>
+            <Value>0</Value>
+            <Text />
+          </VirtualNodeParameter>
+          <VirtualNodeParameter>
+            <Name>output_repeat_interval</Name>
+            <Value>60</Value>
+            <Text />
+          </VirtualNodeParameter>
+          <VirtualNodeParameter>
+            <Name>output_type</Name>
+            <Value>1</Value>
+            <Text />
+          </VirtualNodeParameter>
+          <VirtualNodeParameter>
+            <Name>output_category</Name>
+            <Value>3</Value>
+            <Text />
+          </VirtualNodeParameter>
+          <VirtualNodeParameter>
+            <Name>output_sound</Name>
+            <Value>0</Value>
+            <Text />
+          </VirtualNodeParameter>
+          <VirtualNodeParameter>
+            <Name>output_display_time</Name>
+            <Value>15</Value>
+            <Text />
+          </VirtualNodeParameter>
+          <VirtualNodeParameter>
+            <Name>output_system_event</Name>
+            <Value>0</Value>
+            <Text />
+          </VirtualNodeParameter>
+          <VirtualNodeParameter>
+            <Name>output_aquasuite_profile</Name>
+            <Value>0</Value>
+            <Text />
+          </VirtualNodeParameter>
+          <VirtualNodeParameter>
+            <Name>output_email_address</Name>
+            <Value>0</Value>
+            <Text />
+          </VirtualNodeParameter>
+          <VirtualNodeParameter>
+            <Name>output_application</Name>
+            <Value>0</Value>
+            <Text />
+          </VirtualNodeParameter>
+          <VirtualNodeParameter>
+            <Name>output_account</Name>
+            <Value>0</Value>
+            <Text>00000000-0000-0000-0000-000000000000</Text>
+          </VirtualNodeParameter>
+          <VirtualNodeParameter>
+            <Name>output_source_count</Name>
+            <Value>0</Value>
+            <Text />
+          </VirtualNodeParameter>
+          <VirtualNodeParameter>
+            <Name>output_task_name</Name>
+            <Value>0</Value>
+            <Text />
+          </VirtualNodeParameter>
+          <VirtualNodeParameter>
+            <Name>output_email_recipient_name</Name>
+            <Value>0</Value>
+            <Text />
+          </VirtualNodeParameter>
+          <VirtualNodeParameter>
+            <Name>output_mqtt_topic</Name>
+            <Value>0</Value>
+            <Text />
+          </VirtualNodeParameter>
+          <VirtualNodeParameter>
+            <Name>output_input_action</Name>
+            <Value>0</Value>
+            <Text>00000000-0000-0000-0000-000000000000</Text>
+          </VirtualNodeParameter>
+        </Parameters>
+        <ElementType>OutputEvent</ElementType>
+        <UiSettings>
+          <X>860</X>
+          <Y>210</Y>
+        </UiSettings>
+        <IoNodes>
+          <VirtualNode>
+            <Id>37b74746-1a59-4ecd-a8cc-95c682ca59c7</Id>
+            <Name>X</Name>
+            <Dir>Output</Dir>
+          </VirtualNode>
+          <VirtualNode>
+            <Id>5243294e-7ac6-416a-b757-ce72fb9cc5b9</Id>
+            <Name>T</Name>
+            <Dir>Input</Dir>
+          </VirtualNode>
+        </IoNodes>
+      </VirtualSoftwareSensorNodeSettings>
+      <VirtualSoftwareSensorNodeSettings>
+        <Id>bf487e01-439e-484c-85f6-723d271e64aa</Id>
+        <Name>12VHPWR MAX</Name>
+        <Parameters>
+          <VirtualNodeParameter>
+            <Name>device</Name>
+            <Value>0</Value>
+            <Text>service_data</Text>
+          </VirtualNodeParameter>
+          <VirtualNodeParameter>
+            <Name>serial</Name>
+            <Value>0</Value>
+            <Text>1</Text>
+          </VirtualNodeParameter>
+          <VirtualNodeParameter>
+            <Name>path</Name>
+            <Value>0</Value>
+            <Text>data\sensor\virtualsensors/ee15b082150e4074a133a7a1046dcdc2</Text>
+          </VirtualNodeParameter>
+          <VirtualNodeParameter>
+            <Name>name</Name>
+            <Value>0</Value>
+            <Text>12VHPWR MAX</Text>
+          </VirtualNodeParameter>
+          <VirtualNodeParameter>
+            <Name>fallbacktime</Name>
+            <Value>5</Value>
+            <Text />
+          </VirtualNodeParameter>
+          <VirtualNodeParameter>
+            <Name>fallback</Name>
+            <Value>0</Value>
+            <Text />
+          </VirtualNodeParameter>
+          <VirtualNodeParameter>
+            <Name>test_data_value</Name>
+            <Value>9.5</Value>
+            <Text />
+          </VirtualNodeParameter>
+          <VirtualNodeParameter>
+            <Name>test_data_time</Name>
+            <Value>10</Value>
+            <Text />
+          </VirtualNodeParameter>
+        </Parameters>
+        <ElementType>Source</ElementType>
+        <UiSettings>
+          <X>90</X>
+          <Y>70</Y>
+        </UiSettings>
+        <IoNodes>
+          <VirtualNode>
+            <Id>60720356-b57a-404e-b850-8cf77e77e02f</Id>
+            <Name>X</Name>
+            <Dir>Output</Dir>
+          </VirtualNode>
+        </IoNodes>
+      </VirtualSoftwareSensorNodeSettings>
+      <VirtualSoftwareSensorNodeSettings>
+        <Id>47075e5b-0e95-4918-b343-88dd9ecd9170</Id>
+        <Name>12VHPWR DATA OK</Name>
+        <Parameters>
+          <VirtualNodeParameter>
+            <Name>device</Name>
+            <Value>0</Value>
+            <Text>service_data</Text>
+          </VirtualNodeParameter>
+          <VirtualNodeParameter>
+            <Name>serial</Name>
+            <Value>0</Value>
+            <Text>1</Text>
+          </VirtualNodeParameter>
+          <VirtualNodeParameter>
+            <Name>path</Name>
+            <Value>0</Value>
+            <Text>data\sensor\virtualsensors/fa2ee25fffa84743995cb41fadc7eb6c</Text>
+          </VirtualNodeParameter>
+          <VirtualNodeParameter>
+            <Name>name</Name>
+            <Value>0</Value>
+            <Text>12VHPWR DATA OK</Text>
+          </VirtualNodeParameter>
+          <VirtualNodeParameter>
+            <Name>fallbacktime</Name>
+            <Value>5</Value>
+            <Text />
+          </VirtualNodeParameter>
+          <VirtualNodeParameter>
+            <Name>fallback</Name>
+            <Value>0</Value>
+            <Text />
+          </VirtualNodeParameter>
+          <VirtualNodeParameter>
+            <Name>test_data_value</Name>
+            <Value>1</Value>
+            <Text />
+          </VirtualNodeParameter>
+          <VirtualNodeParameter>
+            <Name>test_data_time</Name>
+            <Value>10</Value>
+            <Text />
+          </VirtualNodeParameter>
+        </Parameters>
+        <ElementType>Source</ElementType>
+        <UiSettings>
+          <X>90</X>
+          <Y>210</Y>
+        </UiSettings>
+        <IoNodes>
+          <VirtualNode>
+            <Id>fd2e8267-1a52-4c23-b600-0eba64f83326</Id>
+            <Name>X</Name>
+            <Dir>Output</Dir>
+          </VirtualNode>
+        </IoNodes>
+      </VirtualSoftwareSensorNodeSettings>
+      <VirtualSoftwareSensorNodeSettings>
+        <Id>00537fd5-97de-4e32-88c0-96421f12d7f9</Id>
+        <Name>CRITICAL LIMIT</Name>
+        <Parameters>
+          <VirtualNodeParameter>
+            <Name>value</Name>
+            <Value>9.2</Value>
+            <Text />
+          </VirtualNodeParameter>
+        </Parameters>
+        <ElementType>Constant</ElementType>
+        <UiSettings>
+          <X>90</X>
+          <Y>140</Y>
+        </UiSettings>
+        <IoNodes>
+          <VirtualNode>
+            <Id>5cdeb148-7aa1-4729-ae0a-1dd1da2b9f7c</Id>
+            <Name>X</Name>
+            <Dir>Output</Dir>
+          </VirtualNode>
+        </IoNodes>
+      </VirtualSoftwareSensorNodeSettings>
+      <VirtualSoftwareSensorNodeSettings>
+        <Id>b7dc068c-ee2f-4c35-b2d1-fd23a53464d4</Id>
+        <Name />
+        <Parameters />
+        <ElementType>Subtract</ElementType>
+        <UiSettings>
+          <X>350</X>
+          <Y>100</Y>
+        </UiSettings>
+        <IoNodes>
+          <VirtualNode>
+            <Id>9ffc4795-0c97-456b-b6af-aefa211893ce</Id>
+            <Name>X</Name>
+            <Dir>Output</Dir>
+          </VirtualNode>
+          <VirtualNode>
+            <Id>72df2245-5f52-4518-8359-bd8a49ad1ccb</Id>
+            <Name>A</Name>
+            <Dir>Input</Dir>
+          </VirtualNode>
+          <VirtualNode>
+            <Id>a2158328-2d37-46fd-a87d-3a4acb66be54</Id>
+            <Name>B</Name>
+            <Dir>Input</Dir>
+          </VirtualNode>
+        </IoNodes>
+      </VirtualSoftwareSensorNodeSettings>
+      <VirtualSoftwareSensorNodeSettings>
+        <Id>40ab42bc-1080-47ef-ac0f-50f9f57eb038</Id>
+        <Name />
+        <Parameters />
+        <ElementType>Multiply</ElementType>
+        <UiSettings>
+          <X>600</X>
+          <Y>190</Y>
+        </UiSettings>
+        <IoNodes>
+          <VirtualNode>
+            <Id>e78a840f-a4ce-491c-b448-e5a7df13bd8d</Id>
+            <Name>X</Name>
+            <Dir>Output</Dir>
+          </VirtualNode>
+          <VirtualNode>
+            <Id>6fa6986c-4285-4acb-bb02-62d02c13e43a</Id>
+            <Name>A</Name>
+            <Dir>Input</Dir>
+          </VirtualNode>
+          <VirtualNode>
+            <Id>cf8e8ab8-aa08-4dc5-ac55-aa33bf7fa716</Id>
+            <Name>B</Name>
+            <Dir>Input</Dir>
+          </VirtualNode>
+        </IoNodes>
+      </VirtualSoftwareSensorNodeSettings>
+    </Items>
+    <Connections>
+      <VirtualConnection>
+        <SourceId>60720356-b57a-404e-b850-8cf77e77e02f</SourceId>
+        <DestId>72df2245-5f52-4518-8359-bd8a49ad1ccb</DestId>
+      </VirtualConnection>
+      <VirtualConnection>
+        <SourceId>5cdeb148-7aa1-4729-ae0a-1dd1da2b9f7c</SourceId>
+        <DestId>a2158328-2d37-46fd-a87d-3a4acb66be54</DestId>
+      </VirtualConnection>
+      <VirtualConnection>
+        <SourceId>9ffc4795-0c97-456b-b6af-aefa211893ce</SourceId>
+        <DestId>6fa6986c-4285-4acb-bb02-62d02c13e43a</DestId>
+      </VirtualConnection>
+      <VirtualConnection>
+        <SourceId>fd2e8267-1a52-4c23-b600-0eba64f83326</SourceId>
+        <DestId>cf8e8ab8-aa08-4dc5-ac55-aa33bf7fa716</DestId>
+      </VirtualConnection>
+      <VirtualConnection>
+        <SourceId>e78a840f-a4ce-491c-b448-e5a7df13bd8d</SourceId>
+        <DestId>5243294e-7ac6-416a-b757-ce72fb9cc5b9</DestId>
+      </VirtualConnection>
+    </Connections>
+    <IsEnabled>true</IsEnabled>
+  </Item>
+</VirtualSoftwareSensorItem>
