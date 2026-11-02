@@ -10,11 +10,8 @@ An aquasuite monitoring dashboard for the **ASUS ROG Astral GeForce RTX 5080 OC*
 - Current, voltage, and power for each of the six 12VHPWR power pins.
 - Total connector power and PCIe slot power readings, with one hour of history.
 
-Dashboard size: **1600 × 1135**. The screenshot shows aquasuite **X.96**.
-
 ## Requirements
 
-- Windows with aquasuite installed, including **Overview pages** and **Playground**.
 - HWiNFO with **Shared Memory Support** enabled and the sensors window open.
 - The GPU's **ITE IT8915FN** sensors available in aquasuite through **Aqua Computer Service → HWiNFO**.
 
